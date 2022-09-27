@@ -1,6 +1,6 @@
 ---
-title: bootstrap5-template Demo
+title:  هایدیفای
 layout: page
 ---
 
-{% include jumbotron.html heading=site.title text="Create a site from a basic bootstrap template" button-text="Learn More" button-link="about.html" %}
+{% include jumbotron.html heading=site.title text="فیلترینگ چگونه کار می‌کند؟" button-text="مشاهده بیشتر" button-link="about.html" %}
