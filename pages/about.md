@@ -1,6 +1,6 @@
 ---
 title: About us
-nav: About
+nav: درباره ما
 nav_order: 2
 ---
 
