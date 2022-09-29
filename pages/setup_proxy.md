@@ -110,7 +110,7 @@ runcmd:
   - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.service
   - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.py
   - sed -i 's/00000000000000000000000000000001/751F2F753854422EA4C5FDDB8314F068/g' clash_url.py
-  - openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nodes -subj "/C=GB/ST=London/L=London/O=Global Security/OU=IT Department/CN=example.com"
+  - openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nodes -subj "/C=GB/ST=London/L=London/O=Google Trust Services LLC/CN=www.google.com"
   - sudo mv gost.service /etc/systemd/system/
   - sudo mv clash_url.service /etc/systemd/system/
   - sudo systemctl enable gost.service
