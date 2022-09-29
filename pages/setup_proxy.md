@@ -26,11 +26,11 @@ nav_order: 1
 
 
 برای مشاهده میزان اعتبار باقیمانده در حساب کاربری خود از لینک زیر اقدام کنید
-(مشاهده اعتبار دانشجویی در azure)[https://www.microsoftazuresponsorships.com/Balance]
+[مشاهده اعتبار دانشجویی در azure](https://www.microsoftazuresponsorships.com/Balance)
 
 ### مرحله 2: ساخت یک ماشین مجازی در azure برای تلگرام
 بر روی این 
-(لینک)[https://portal.azure.com/]
+[لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
 
 در این گیف یک مقدار کد نیاز است که از زیر آن را کپی کنید
@@ -77,7 +77,7 @@ https://t.me/proxy?server=ip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F0686
 
 ### مرحله 2: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
 بر روی این 
-(لینک)[https://portal.azure.com/]
+[لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
  در گیف زیر به جای telegram عبارت gost را قرار دهید
 
@@ -154,7 +154,6 @@ rules:
 این تنظیمات را کپی کنید و در کامپیوتر با نام `hiddify.yml`  ذخیره کنید 
 و با استفاده از لینک زیر کلاینت مورد نظر را کانفیگ کنید
 
-(آموزش استفاده از کلش)[https://hiddify.github.io/how_to_use_clash.html]
+[آموزش استفاده از کلش](https://hiddify.github.io/how_to_use_clash.html)
 
-
-<script src="{{ '/assets/change_random_chars.js' | relative_url }}"></script>
+<script src="{{ '/assets/change_secret.js' | relative_url }}"></script>
