@@ -69,13 +69,13 @@ power_state:
 ```
 {% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
 
-پس از کپی کردن ip ارائه شده آن را به جای ip در لینک زیر قرار دهید و از پروکسی تلگرام اختصاصی لذت ببرید
+پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی تلگرام اختصاصی لذت ببرید
 
 ```
-https://t.me/proxy?server=ip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F068676f6f676c652e636f6d
+https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F068676f6f676c652e636f6d
 ```
 
-### مرحله 2: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
+### مرحله 3: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
 بر روی این 
 [لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
@@ -105,53 +105,28 @@ runcmd:
   - chmod +x gost
   - wget https://raw.githubusercontent.com/hiddify/config/main/gost-systemd.service -O gost.service
   - sed -i 's/user:pass/751F2F753854422EA4C5FDDB8314F068:1/g' gost.service
+  - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.service
+  - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.py
+  - sed -i 's/00000000000000000000000000000001/751F2F753854422EA4C5FDDB8314F068/g' clash_url.py
+  - openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nodes -subj "/C=GB/ST=London/L=London/O=Global Security/OU=IT Department/CN=example.com"
   - sudo mv gost.service /etc/systemd/system/
+  - sudo mv clash_url.service /etc/systemd/system/
   - sudo systemctl enable gost.service
   - sudo systemctl start gost.service
+  - sudo systemctl enable clash_url.service
+  - sudo systemctl start clash_url.service
 power_state:
   mode: reboot
   message: Restarting after installing docker & docker-compose
 ```
 {% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
 
-پس از کپی کردن ip ارائه شده آن را به جای ip در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
-
-
-```
-mixed-port: 7890
-allow-lan: false
-log-level: info
-secret: ""
-external-controller: 127.0.0.1:9090
-ipv6: false
-mode: rule
-proxies:
-  - name: Proxy
-    type: http
-    server: ip
-    port: "443"
-    tls: true
-    skip-cert-verify: true
-    sni: google.com
-    username: 751F2F753854422EA4C5FDDB8314F068
-    password: 1
-
-rule-providers:
-  iran:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hiddify/clash/main/iran.yml"
-    path: ./ruleset/iran.yaml
-    interval: 432000
-rules:
-  - RULE-SET,iran,DIRECT
-  - DOMAIN,google.com,DIRECT
-  - DST-PORT,80,Proxy
-  - DST-PORT,443,Proxy
-  - MATCH,DIRECT
+پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
 
 ```
-این تنظیمات را کپی کنید و در کامپیوتر با نام `hiddify.yml`  ذخیره کنید 
+https://serverip:80/751F2F753854422EA4C5FDDB8314F068
+```
+ 
 و با استفاده از لینک زیر کلاینت مورد نظر را کانفیگ کنید
 
 [آموزش استفاده از کلش](https://hiddify.github.io/how_to_use_clash.html)
