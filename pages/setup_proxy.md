@@ -74,7 +74,9 @@ power_state:
 ```
 https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F068676f6f676c652e636f6d
 ```
-
+<div class="alert alert-warning">
+  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
+  </div>
 ### مرحله 3: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
 بر روی این 
 [لینک](https://portal.azure.com/)
@@ -126,6 +128,9 @@ power_state:
 ```
 https://serverip:80/751F2F753854422EA4C5FDDB8314F068
 ```
+<div class="alert alert-warning">
+  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
+  </div>
  
 و با استفاده از لینک زیر کلاینت مورد نظر را کانفیگ کنید
 
