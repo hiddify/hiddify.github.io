@@ -39,6 +39,7 @@ nav_order: 1
 و مطابق گیف زیر مراحل را ادامه دهید.
 
 
+{% include figure.html img="https://github.com/hiddify/hiddify.github.io/raw/main/assets/azure-auto-deploy.gif" alt="create vm" caption="automatically create vm in azure" %}
 
 
 
@@ -113,7 +114,7 @@ https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB831
 بر روی این آیکون
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fgost%2Fgost-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 کنید
-و مطابق گیف زیر مراحل را ادامه دهید.
+و مطابق گیف قبل مراحل را ادامه دهید.
 
 <!-- 
 بر روی این
