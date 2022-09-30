@@ -33,6 +33,10 @@ nav_order: 1
 ```
 751F2F753854422EA4C5FDDB8314F068
 ```
+<div class="alert alert-warning">
+  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
+  </div>
+  
 بر روی این آیکون
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Ftelegram%2Ftelegram-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 کنید
@@ -41,11 +45,9 @@ nav_order: 1
 
 {% include figure.html img="https://github.com/hiddify/hiddify.github.io/raw/main/assets/azure-auto-deploy.gif" alt="create vm" caption="automatically create vm in azure" %}
 
-
-
-
-
-
+<div class="alert alert-success">
+و لینک پروکسی تلگرام را از قسمت `output` کپی کنید. فراموش نکنید که این لینک پاک می شود پس آن را در جای امنی ذخیره کنید
+</div>
 
 
 
@@ -96,12 +98,7 @@ power_state:
 
 پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی تلگرام اختصاصی لذت ببرید
  -->
-```
-https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F0687777772e676f6f676c652e636f6d
-```
-<div class="alert alert-warning">
-  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
-  </div>
+
   
 ### مرحله 3: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
 
@@ -110,12 +107,18 @@ https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB831
 ```
 751F2F753854422EA4C5FDDB8314F068
 ```
-
+<div class="alert alert-warning">
+  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
+  </div>
+  
 بر روی این آیکون
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fgost%2Fgost-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 کنید
 و مطابق گیف قبل مراحل را ادامه دهید.
 
+<div class="alert alert-success">
+و لینک پروکسی را از قسمت `output` کپی کنید. فراموش نکنید که این لینک پاک می شود پس آن را در جای امنی ذخیره کنید
+</div>
 <!-- 
 بر روی این
 [لینک](https://portal.azure.com/)
@@ -164,12 +167,7 @@ power_state:
 
 پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
  -->
-```
-https://dns:444/751F2F753854422EA4C5FDDB8314F068
-```
-<div class="alert alert-warning">
-  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
-  </div>
+
  
 و با استفاده از لینک زیر کلاینت مورد نظر را کانفیگ کنید
 
