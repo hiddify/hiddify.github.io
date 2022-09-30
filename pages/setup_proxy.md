@@ -33,9 +33,6 @@ nav_order: 1
 ```
 751F2F753854422EA4C5FDDB8314F068
 ```
-<div class="alert alert-warning">
-  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
-  </div>
   
 بر روی این آیکون
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Ftelegram%2Ftelegram-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
@@ -107,9 +104,6 @@ power_state:
 ```
 751F2F753854422EA4C5FDDB8314F068
 ```
-<div class="alert alert-warning">
-  توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
-  </div>
   
 بر روی این آیکون
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fgost%2Fgost-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
