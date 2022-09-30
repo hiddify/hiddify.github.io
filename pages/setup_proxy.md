@@ -34,11 +34,26 @@ nav_order: 1
 751F2F753854422EA4C5FDDB8314F068
 ```
 بر روی این آیکون
-
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Ftelegram-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 کنید
 و مطابق گیف زیر مراحل را ادامه دهید.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 [لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
 
@@ -79,15 +94,29 @@ power_state:
 {% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
 
 پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی تلگرام اختصاصی لذت ببرید
-
+ -->
 ```
-https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F068676f6f676c652e636f6d
+https://t.me/proxy?server=serverip&port=443&secret=ee751F2F753854422EA4C5FDDB8314F0687777772e676f6f676c652e636f6d
 ```
 <div class="alert alert-warning">
   توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
   </div>
+  
 ### مرحله 3: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
-بر روی این 
+
+ابتدا توکن تصادفی تولید شده زیر را کپی کنید
+
+```
+751F2F753854422EA4C5FDDB8314F068
+```
+
+بر روی این آیکون
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fgost-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
+کنید
+و مطابق گیف زیر مراحل را ادامه دهید.
+
+<!-- 
+بر روی این
 [لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
  در گیف زیر به جای telegram عبارت gost را قرار دهید
@@ -133,9 +162,9 @@ power_state:
 {% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
 
 پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
-
+ -->
 ```
-http://serverip/751F2F753854422EA4C5FDDB8314F068
+https://dns:444/751F2F753854422EA4C5FDDB8314F068
 ```
 <div class="alert alert-warning">
   توجه کنید که این لینک با ریفرش شدن صفحه تغییر میکند پس آن را حتما کپی کنید
