@@ -29,7 +29,16 @@ nav_order: 1
 [مشاهده اعتبار دانشجویی در azure](https://www.microsoftazuresponsorships.com/Balance)
 
 ### مرحله 2: ساخت یک ماشین مجازی در azure برای تلگرام
-بر روی این 
+ابتدا توکن تصادفی تولید شده زیر را کپی کنید
+```
+751F2F753854422EA4C5FDDB8314F068
+```
+بر روی این آیکون
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Ftelegram-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
+کنید
+و مطابق گیف زیر مراحل را ادامه دهید.
+
 [لینک](https://portal.azure.com/)
   کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
 
