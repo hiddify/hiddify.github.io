@@ -14,7 +14,6 @@ nav_order: 2
 - [Android](https://github.com/Kr328/ClashForAndroid)
 - [Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe)
 - [macOS](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4.dmg) اسمش کلش فور ویندوزه ولی برای مک هم هست
-- [macOS M1](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4-arm64.dmg)  اسمش کلش فور ویندوزه ولی برای مک هم هست
 - [iOS](https://apps.apple.com/app/stash/id1596063349?platform=iphone) پولی هست ولی روش کار میکنیم رایگان بشه
 
 
