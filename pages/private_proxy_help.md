@@ -3,11 +3,11 @@
 
 # چگونه با کلش کار کنیم؟
 ابتدا با توجه به سیستم عامل خود یکی از نرم افزارهای زیر را دانلود کنید:
-- Android: [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash) - [![Android: APK](/images/android-apk-badge.png)](/defaultusersecret/gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk)
-- Windows: [![Windows](/images/BadgeWindows.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe)
-- macOS: [![macOS](/images/BadgeMacOS.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4.dmg) 
-- iOS: [![iOS: Shadowlink](/images/badgeiOS.png)](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518)
-- Linux: [![Linux](/images/BadgeLinux.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-x64-linux.tar.gz)
+- [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash) - [![Android: APK](/images/android-apk-badge.png)](/defaultusersecret/gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
+- [![Windows](/images/BadgeWindows.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe) Windows
+- [![macOS](/images/BadgeMacOS.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4.dmg) macOS
+- [![iOS: Shadowlink](/images/badgeiOS.png)](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518) iOS
+- [![Linux](/images/BadgeLinux.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-x64-linux.tar.gz) Linux
 
 
 
