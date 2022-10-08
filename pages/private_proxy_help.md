@@ -23,7 +23,7 @@ layout: no_header
 
 
 ## لینک تنظیمات:
-روی یکی از لینک های زیر با توجه به نیازتان `راست کلیک` کرده و کپی کنید
+روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
@@ -42,12 +42,13 @@ layout: no_header
 
 ## کار با کلش ویندوز، مک و لینوکس
   
-
+چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله دوم را ندارید فقط مرحله اول کافی است
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در قسمت 1 تصویر دوم گیف قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_windows.gif" alt="How to use clash for windows and macOS" caption="How to use clash for windows and macOS" %}
 
 
 ## کار با کلش اندروید
+چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
