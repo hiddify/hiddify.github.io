@@ -25,15 +25,15 @@ layout: no_header
 روی یکی از لینک های زیر با توجه به نیازتان راست کلیک کرده و کپی کنید
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
 
-<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml">https://defaultserverhost/defaultusersecret/clash/lite.yml</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/lite.yml</a>
 
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
 
-<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml">https://defaultserverhost/defaultusersecret/clash/normal.yml</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/normal.yml</a>
 
 ### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
 
-<a href="https://defaultserverhost/defaultusersecret/clash/all.yml">https://defaultserverhost/defaultusersecret/clash/all.yml</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/all.yml</a>
 
 ## کار با کلش ویندوز، مک و لینوکس
   
@@ -47,9 +47,7 @@ layout: no_header
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
 <style>
-  a{    
-    word-break: break-all;
-  }
+
   </style>
 <script>
   secret=document.location.pathname.split('/')[1];
