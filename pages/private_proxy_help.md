@@ -1,13 +1,12 @@
 ---
-title: About us
+title: آموزش استفاده
 nav: 
 nav_order: 
 ---
 
 
 
-# آموزش:
-## [پروکسی تلگرام در صورت فعال بودن کلیک کنید](tg://proxy?server=defaultserverhost/&port=443&secret=eedefaultusersecret6d61696c2e676f6f676c652e636f6d)
+# [پروکسی تلگرام در صورت فعال بودن کلیک کنید](tg://proxy?server=defaultserverhost/&port=443&secret=eedefaultusersecret6d61696c2e676f6f676c652e636f6d)
 
 
 # چگونه با کلش کار کنیم؟
