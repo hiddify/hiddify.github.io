@@ -26,16 +26,19 @@ layout: no_header
 روی یکی از لینک های زیر با توجه به نیازتان `راست کلیک` کرده و کپی کنید
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
 
-<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/lite.yml</a>
+<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
 
-<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/normal.yml</a>
+<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
+
 
 ### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copy">کپی لینک برای مرحله بعد</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
 ## کار با کلش ویندوز، مک و لینوکس
   
@@ -71,4 +74,18 @@ layout: no_header
     as[i].innerHTML=as[i].innerHTML.replaceAll('defaultserverhost',host);
   }
 
+  copy_links=document.getElementsByClassName('copylink');
+  function copy_click(e){
+    e.preventDefault(); 
+    console.log(this);console.log(e);
+    var link=this.href;
+    navigator.clipboard.writeText(link).then(function() {
+      alert('Link Copied to clipboard '+link);
+    }, function(err) {
+        window.prompt("Copy to clipboard: Ctrl+C, Enter", link);
+    });
+  }
+  for (i=0; i<copy_links.length;i++){
+    copy_links[i].onclick=copy_click;
+  }
 </script>
