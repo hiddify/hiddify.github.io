@@ -1,7 +1,6 @@
 ---
 title: آموزش استفاده
-nav: 
-nav_order: 
+layout: no_header
 ---
 
 
