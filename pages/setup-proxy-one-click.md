@@ -57,7 +57,7 @@ function handleValueChange(){
   }
   for (i=0; i<as.length;i++){
     //as[i].href=as[i].href.replaceAll('defaultusersecret',secret);
-    as[i].href=default_contents['a'][i]['href'].replaceAll('defaultserverhost',host);
+    as[i].href=default_contents['a'][i]['href'].replaceAll('myservice.hiddify.com',host);
     //as[i].innerHTML=as[i].innerHTML.replaceAll('defaultusersecret',secret);
     as[i].innerHTML=default_contents['a'][i]['inner'].replaceAll('myservice.hiddify.com',host);
   }
