@@ -31,7 +31,7 @@ wget https://github.com/hiddify/config/blob/main/shadowsocks-telegram/setup-ss-t
 setup-ss-tg.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 ```
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
-<a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
+<a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
 <div class="alert alert-success">
 توجه داشته باشید که لینک را حتما کپی کنید. این لینک به صورت تصادفی ایجاد شده و با ریفرش شدن صفحه تغییر میکند  پس آن را در جای امنی ذخیره کنید
 </div>
