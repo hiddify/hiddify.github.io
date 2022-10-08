@@ -27,8 +27,8 @@ nav_order: 2
 
 دستور زیر را اجرا کنید
 ```
-wget https://github.com/hiddify/config/blob/main/shadowsocks-telegram/setup-ss-tg.sh
-setup-ss-tg.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
+wget https://raw.githubusercontent.com/hiddify/config/main/shadowsocks-telegram/setup-ss-tg.sh
+bash setup-ss-tg.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 ```
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
 <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
