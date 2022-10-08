@@ -14,21 +14,18 @@
 
 
 ## لینک تنظیمات:
+روی یکی از لینک های زیر با توجه به نیازتان راست کلیک کرده و کپی کنید
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
 
-```
-https://defaultserverhost/defaultusersecret/clash/lite.yml
-```
+<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml">https://defaultserverhost/defaultusersecret/clash/lite.yml</a>
+
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
 
-```
-https://defaultserverhost/defaultusersecret/clash/normal.yml
-```
+<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml">https://defaultserverhost/defaultusersecret/clash/normal.yml</a>
+
 ### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
 
-```
-https://defaultserverhost/defaultusersecret/clash/all.yml
-```
+<a href="https://defaultserverhost/defaultusersecret/clash/all.yml">https://defaultserverhost/defaultusersecret/clash/all.yml</a>
 
 ## کار با کلش ویندوز و مک
   
