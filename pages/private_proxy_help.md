@@ -52,6 +52,8 @@
   for (i=0; i<as.length;i++){
     as[i].href=as[i].href.replaceAll('defaultusersecret',secret);
     as[i].href=as[i].href.replaceAll('defaultserverhost',host);
+    as[i].innerHTML=as[i].innerHTML.replaceAll('defaultusersecret',secret);
+    as[i].innerHTML=as[i].innerHTML.replaceAll('defaultserverhost',host);
   }
 
 </script>
