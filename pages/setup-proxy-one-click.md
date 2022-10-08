@@ -19,7 +19,7 @@ nav_order: 2
 <form class="form-inline">
   <div class="input-group mb-2 mr-sm-2">
     <div class="input-group-prepend">
-      <div class="input-group-text">@</div>
+      <div class="input-group-text">domain</div>
     </div>
     <input  type="text" class="form-control" id="userdomain" placeholder="domain" value="myservice.hiddify.com" oninput="handleValueChange()">
   </div>
@@ -50,7 +50,7 @@ setup-ss-tg.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
     default_contents['a'][i]={'href':as[i].href,'inner':as[i].innerHTML}
   }
 function handleValueChange(){
-  var defaultserverhost = document.getElementById("userdomain").value;
+  var host = document.getElementById("userdomain").value;
   for (i=0; i<codes.length;i++){
     //codes[i].innerHTML=codes[i].innerHTML.replaceAll('defaultusersecret',secret);
     codes[i].innerHTML=default_contents['code'][i].replaceAll('myservice.hiddify.com',host);
