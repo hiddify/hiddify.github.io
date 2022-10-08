@@ -58,6 +58,13 @@ layout: no_header
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
+# کار با پروکسی در iOS
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
+
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
+
+
 <style>
 .text-break {
     word-wrap: break-word!important;
