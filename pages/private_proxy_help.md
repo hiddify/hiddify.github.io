@@ -33,12 +33,12 @@ https://defaultserverhost/defaultusersecret/clash/all.yml
   
 
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در قسمت 1 تصویر دوم گیف قرار دهید و مراحل را مطابق گیف زیر انجام دهید
-{% include figure.html img="/assets/clash_windows.gif" alt="How to use clash for windows and macOS" caption="How to use clash for windows and macOS" %}
+{% include figure.html img="assets/clash_windows.gif" alt="How to use clash for windows and macOS" caption="How to use clash for windows and macOS" %}
 
 
 ## کار با کلش اندروید
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
-{% include figure.html img="/assets/clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
+{% include figure.html img="assets/clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
 
 <script>
