@@ -10,7 +10,7 @@ nav_order:
 ## [پروکسی تلگرام کلیک کنید](tg://proxy?server=defaultserverhost&port=443&secret=eedefaultusersecret6d61696c2e676f6f676c652e636f6d)
 
 
-# چگونه با کلش کار کنیم؟
+# پروکسی سایت ها و اپلیکشن ها:
 ابتدا با توجه به سیستم عامل خود یکی از نرم افزارهای زیر را دانلود کنید:
 - [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash) - [![Android: APK](/images/android-apk-badge.png)](/defaultusersecret/gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
 - [![Windows](/images/BadgeWindows.png)](/defaultusersecret/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe) Windows
@@ -36,7 +36,7 @@ nav_order:
 
 <a href="https://defaultserverhost/defaultusersecret/clash/all.yml">https://defaultserverhost/defaultusersecret/clash/all.yml</a>
 
-## کار با کلش ویندوز و مک
+## کار با کلش ویندوز، مک و لینوکس
   
 
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در قسمت 1 تصویر دوم گیف قرار دهید و مراحل را مطابق گیف زیر انجام دهید
@@ -47,7 +47,11 @@ nav_order:
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
-
+<style>
+  a{    
+    word-break: break-all;
+  }
+  </style>
 <script>
   secret=document.location.pathname.split('/')[1];
   host=document.location.host;
