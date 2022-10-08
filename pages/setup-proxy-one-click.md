@@ -8,10 +8,10 @@ nav_order: 2
 
 
 # پیش نیازها:
-- یک vps آماده با ubuntu 20.04
-- یک دامنه یا زیردامنه (برای مثال: myservice.hiddify.com)
+- یک vps آماده با ubuntu 20.04 و آی پی مثلا `1.1.1.1`
+- یک دامنه یا زیردامنه (برای مثال: `myservice.hiddify.com`)
 ## مرحله 1: تنظیم آی پی VPS در دامنه
-یک رکورد A ایجاد کنید که به آی پی VPS متصل باشد.
+یک رکورد A ایجاد کنید که به آی پی VPS (در مثال ما `1.1.1.1`) متصل باشد.
 [آموزش CPANEL](https://my.mihanwebhost.com/knowledgebase.php?action=displayarticle&id=267)
 
 ### مرحله 2: اجرای اسکریپت
