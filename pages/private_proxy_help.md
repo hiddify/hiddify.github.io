@@ -23,7 +23,7 @@ layout: no_header
 
 
 ## لینک تنظیمات:
-روی یکی از لینک های زیر با توجه به نیازتان راست کلیک کرده و کپی کنید
+روی یکی از لینک های زیر با توجه به نیازتان `راست کلیک` کرده و کپی کنید
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
 
 <a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/lite.yml</a>
