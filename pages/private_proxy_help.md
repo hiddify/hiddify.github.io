@@ -48,7 +48,10 @@ layout: no_header
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
 <style>
-
+.text-break {
+    word-wrap: break-word!important;
+    word-break: break-word!important;
+}
   </style>
 <script>
   secret=document.location.pathname.split('/')[1];
