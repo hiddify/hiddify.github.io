@@ -34,7 +34,8 @@ layout: no_header
 
 ### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
 
-<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="text-break">https://defaultserverhost/defaultusersecret/clash/all.yml</a>
+<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copy">کپی لینک برای مرحله بعد</a>
 
 ## کار با کلش ویندوز، مک و لینوکس
   
