@@ -106,13 +106,14 @@ power_state:
 ```
   
 بر روی این آیکون
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fgost%2Fgost-vm-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhiddify%2Fconfig%2Fmain%2Fshadowsocks%2Fss-azure-template.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 کنید
 و مطابق گیف قبل مراحل را ادامه دهید.
 
 <div class="alert alert-success">
 و لینک پروکسی را از قسمت `output` کپی کنید. فراموش نکنید که این لینک پاک می شود پس آن را در جای امنی ذخیره کنید
 </div>
+سپس لینک را باز کرده تا آموزش استفاده از پروکسی نمایش داده شود. 
 <!-- 
 بر روی این
 [لینک](https://portal.azure.com/)
@@ -161,10 +162,5 @@ power_state:
 
 پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
  -->
-
- 
-و با استفاده از لینک زیر کلاینت مورد نظر را کانفیگ کنید
-
-[آموزش استفاده از کلش](https://hiddify.github.io/how_to_use_clash.html)
 
 <script src="{{ '/assets/change_secret.js' | relative_url }}"></script>
