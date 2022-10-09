@@ -22,9 +22,11 @@ layout: no_header
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
-- [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash) - [![Android: APK](/images/android-apk-badge.png)](../gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
+- [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash)
+- [![Android: APK](/images/android-apk-badge.png)](../gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
 
-        ## لینک تنظیمات:
+        
+## لینک تنظیمات:
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
 ### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام
