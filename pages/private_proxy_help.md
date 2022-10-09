@@ -22,8 +22,9 @@ layout: no_header
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
-- [![Android: Google Play](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.github.kr328.clash)
-- [![Android: APK](/images/android-apk-badge.png)](../gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
+<a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img src="/images/google-play-badge.png"></a>
+<a href="../gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk"><img src="/images/android-apk-badge.png"></a>
+
 
         
         <h2>لینک تنظیمات:</h2>
@@ -72,11 +73,12 @@ layout: no_header
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         ابتدا یکی از نرم افزار زیر را با توجه به سیستم عامل خود دانلود و نصب کنید:
-- [![Windows](/images/BadgeWindows.png)](../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe) Windows
-- [![macOS](/images/BadgeMacOS.png)](../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4.dmg) macOS
-- [![iOS: Shadowlink](/images/badgeiOS.png)](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518) iOS
-- [![Linux](/images/BadgeLinux.png)](../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-x64-linux.tar.gz) Linux
+        <a href="../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows.Setup.0.20.4.exe"><img src="/images/BadgeWindows.png"></a>
+   <a href="../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.4/Clash.for.Windows-0.20.4.dmg"><img src="/images/BadgeMacOS.png"></a>
+           <a href="../gh/Fndroid/clash_for_windows_pkg/releases/download/0.20.5/Clash.for.Windows-0.20.5-x64-linux.tar.gz"><img src="/images/BadgeLinux.png"></a>
 
+
+        
         
 
         <h2>لینک تنظیمات:</h2>
@@ -124,8 +126,8 @@ layout: no_header
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
-        [![iOS: Shadowlink](/images/badgeiOS.png)](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518) iOS
-        
+        <a href="https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518"><img src="/images/badgeiOS.png"></a>
+                
         <h2>
         کار با پروکسی در iOS
         </h2>
