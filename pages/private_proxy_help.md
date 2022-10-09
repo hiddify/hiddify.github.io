@@ -15,11 +15,11 @@ layout: no_header
 <div class="accordion" >
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         اندروید - Android  - روش پیشنهادی
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
 <a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img src="/images/google-play-badge.png"></a>
