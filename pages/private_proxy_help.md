@@ -55,8 +55,15 @@ layout: no_header
 
 <h2> کار با کلش اندروید
         </h2>
-  چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
-ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
+  
+   چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
+
+        <div class="alarm alarm-danger">
+        چنانچه با خطای Handshake مواجه شدید، لازم است که ابتدا از طریق روش دوم که در پایین این بخش هست استفاده کنید و سپس ادامه مراحل اینجا را طی کنید.
+          
+        </div>
+        ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
+       
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
         
@@ -64,6 +71,44 @@ layout: no_header
       </div>
     </div>
   </div>
+  
+  
+  
+  
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+        اندروید روش بکاپ - غیر پیشنهادی
+      </button>
+    </h2>
+    <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        
+        ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
+        <a href="https://play.google.com/store/apps/details?id=io.nekohasekai.sagernet"><img src="/images/google-play-badge.png"></a>
+<a href="../gh/SagerNet/SagerNet/releases/download/0.8.1-rc02/SN-0.8.1-rc02-arm64-v8a.apk"><img src="/images/android-apk-badge.png"></a>
+        
+                
+        <h2>
+        کار با پروکسی در اندروید روش 2
+        </h2>
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. 
+
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
+        
+      </div>
+    </div>
+
+      
+      
+  
+  
+  
+  
+  
+  
+  
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
