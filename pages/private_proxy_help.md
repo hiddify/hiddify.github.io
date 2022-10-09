@@ -26,32 +26,35 @@ layout: no_header
 - [![Android: APK](/images/android-apk-badge.png)](../gh/Kr328/ClashForAndroid/releases/download/v2.5.11/cfa-2.5.11-premium-universal-release.apk) Android
 
         
-## لینک تنظیمات:
+        <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام
+        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
-
+<h3>استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر</h3>
+        
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
-
+        <h3>
+استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+        </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
 
-### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
-
+        <h3>
+استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
+        </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
-## کار با کلش اندروید
-چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
+<h2> کار با کلش اندروید
+        </h2>
+  چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در بخش 2 مرحله 4 قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_android.gif" alt="How to use clash for Android" caption="How to use clash for Android" %}
 
@@ -76,32 +79,35 @@ layout: no_header
 
         
 
-## لینک تنظیمات:
+        <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام
+        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر
-
+<h3>استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر</h3>
+        
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
-### استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
-
+        <h3>
+استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+        </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
 
-### استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
-
+        <h3>
+استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
+        </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک برای مرحله بعد</a>
 
+        <h2>
 ## کار با کلش ویندوز، مک و لینوکس
-  
+        </h2>
 چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله دوم را ندارید فقط مرحله اول کافی است
 ابندا یکی از لینک تنظیمات کلش را کپی کنید و در قسمت 1 تصویر دوم گیف قرار دهید و مراحل را مطابق گیف زیر انجام دهید
 {% include figure.html img="clash_windows.gif" alt="How to use clash for windows and macOS" caption="How to use clash for windows and macOS" %}
@@ -119,7 +125,10 @@ layout: no_header
       <div class="accordion-body">
         ابتدا یکی از نرم افزارهای زیر را دانلود کنید:
         [![iOS: Shadowlink](/images/badgeiOS.png)](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518) iOS
-        # کار با پروکسی در iOS
+        
+        <h2>
+        کار با پروکسی در iOS
+        </h2>
 ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
 
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
