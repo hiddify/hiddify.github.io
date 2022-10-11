@@ -4,12 +4,7 @@ layout: no_header
 ---
 
 
-# پروکسی تلگرام
-پروکسی تلگرام در همه سرورها فعال نیست. در صورتی که در این سرور فعال باشد، بر روی لینک زیر کلیک کنید تا بر روی تلگرام شما تنظیم شود.
-<a href="tg://proxy?server=defaultserverhost&port=443&secret=eedefaultusersecret6d61696c2e676f6f676c652e636f6d" class='btn btn-primary'>پروکسی تلگرام کلیک کنید</a>
-
-
-# پروکسی سایت ها و اپلیکشن ها:
+# گذرنده سایت ها و اپلیکشن ها:
 
 
 <div class="accordion" id="accordionExample">
@@ -30,25 +25,21 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+        <h3> استفاده هوشمند فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
-<h3>استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر</h3>
-        
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
 
         <h3>
-استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+استفاده هوشمند فقط برای سایت های خارجی
         </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
 
 
         <h3>
-استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
+استفاده  همیشه (کاهش سرعت سایت های داخلی)
         </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
@@ -56,7 +47,7 @@ layout: no_header
 <h2> کار با کلش اندروید
         </h2>
   
-   چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
+   چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچم را ندارید
 
         <div class="alert alert-danger">
         چنانچه با خطای Handshake مواجه شدید، لازم است که ابتدا از طریق روش دوم که در پایین این بخش هست استفاده کنید و سپس ادامه مراحل اینجا را طی کنید.
@@ -90,9 +81,9 @@ layout: no_header
         
                 
         <h2>
-        کار با پروکسی در اندروید روش 2
+        کار با گذرنده در اندروید روش 2
         </h2>
-ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. 
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس گذرنده را انتخاب و اجرا نمایید. 
 
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
@@ -129,7 +120,7 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+        <h3> استفاده هوشمند  فقط برای سایت های فیل.تر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
@@ -140,14 +131,14 @@ layout: no_header
 <a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
 
         <h3>
-استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+استفاده هوشمند  فقط برای سایت های خارجی
         </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
 
 
         <h3>
-استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
+استفاده  همیشه (کاهش سرعت سایت های داخلی)
         </h3>
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
@@ -174,9 +165,9 @@ layout: no_header
         <a href="https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518"><img src="/images/badgeiOS.png"></a>
                 
         <h2>
-        کار با پروکسی در iOS
+        کار در iOS
         </h2>
-ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس مود را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
 
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
