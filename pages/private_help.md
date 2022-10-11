@@ -25,12 +25,12 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+<!--         <h3> استفاده هوشمند فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
-
+ -->
         <h3>
 استفاده هوشمند فقط برای سایت های خارجی
         </h3>
@@ -85,7 +85,11 @@ layout: no_header
         </h2>
 ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس گذرنده را انتخاب و اجرا نمایید. 
 
-<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
+
+        <br/>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب کانفیگ 2</a>
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
         
       </div>
@@ -120,7 +124,7 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند  فقط برای سایت های فیل.تر و واتساپ و اینستاگرام</h3>
+<!--         <h3> استفاده هوشمند  فقط برای سایت های فیل.تر و واتساپ و اینستاگرام</h3>
 
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
@@ -129,7 +133,7 @@ layout: no_header
         
 <a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
-
+ -->
         <h3>
 استفاده هوشمند  فقط برای سایت های خارجی
         </h3>
