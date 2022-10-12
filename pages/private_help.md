@@ -7,10 +7,11 @@ layout: no_header
 بر روی لینک زیر کلیک کنید تا بر روی تلگرام شما تنظیم شود.
 <a href="tg://proxy?server=serverip&port=443&secret=eeusersecret6d61696c2e676f6f676c652e636f6d" class='btn btn-primary'>گذرنده تلگرام کلیک کنید</a>
 
+<!--
 # گذرنده سیگنال
 بر روی لینک زیر کلیک کنید تا بر روی سیگنال شما تنظیم شود.
 <a href="https://signal.tube/#proxyproviderip/eeusersecret6d61696c2e676f6f676c652e636f6d/" class='btn btn-primary'>گذرنده سیگنال کلیک کنید</a>
-
+-->
 
 # گذرنده سایت ها و اپلیکشن ها:
 
