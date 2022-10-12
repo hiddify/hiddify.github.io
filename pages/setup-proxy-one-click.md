@@ -45,6 +45,45 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 </div>
 
 
+# تنظیمات پیشرفته
+
+اگر کار با CDN را آشنایی دارید، کافی است که بر روی دامنه پروکسی را تنظیم کنید
+برگرفته از دوستان [FreeInternet](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls)
+### 2. Arvancloud setup
+
+4. Log in to the Arvancloud account and add your domain.
+
+```
+Domain List > Add new domains
+```
+
+![Arvancloud dashboard > Add new domain](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_adddomain.jpg 'Click on Add new domain')
+
+Then:
+
+- Enter your domain name
+- Select Free plan
+- Skip DNS Records
+- Note the nameservers presented on the last step
+
+![Add new domain > Nameservers](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_nameservers.jpg 'Copy these nameservers')
+
+- Go to your domain registrar (the website where you bought your domain, e.g. Godaddy, Namecheap, ...)
+- Update the nameservers to the one you got in Arvancloud (after adding the domain).
+
+After your domain nameservers changed successfully (depending on the registrar, it can take a few hours, but it's usually quite fast), your domain is now using Arvancloud DNS.
+
+5. Connect your domain to your server's IP address using `A` records. Make sure the `Cloud Service` option is enabled for each record.
+   ![Add new domain > Nameservers](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_add_dns.jpg 'Enable cloud services')
+
+6. Go to `HTTPS settings` on the navbar, select `Issue certificate`. It will take around 30 minutes for the certificate to be ready.
+
+7. After the certificate is issued, enable the `Activate HTTPS` option.
+   ![HTTPS Settings > Activate HTTPS](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_https.jpg 'Enable cloud services')
+
+
+
+
 <script src="{{ '/assets/change_secret.js' | relative_url }}"></script>
 
 <script>
