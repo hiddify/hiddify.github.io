@@ -47,8 +47,19 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 
 # تنظیمات پیشرفته
 
-اگر کار با CDN را آشنایی دارید، کافی است که بر روی دامنه پروکسی را تنظیم کنید
-برگرفته از دوستان [FreeInternet](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls)
+اگر کار باCDN را آشنایی دارید، کافی است که بر روی دامنه پروکسی را تنظیم کنید
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        توضیحات پیشرفته
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       
+برگرفته از دوستان[FreeInternet](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls)
+
 ### 2. Arvancloud setup
 
 4. Log in to the Arvancloud account and add your domain.
@@ -80,7 +91,9 @@ After your domain nameservers changed successfully (depending on the registrar, 
 
 7. After the certificate is issued, enable the `Activate HTTPS` option.
    ![HTTPS Settings > Activate HTTPS](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_https.jpg 'Enable cloud services')
-
+      </div>
+    </div>
+  </div>
 
 
 
