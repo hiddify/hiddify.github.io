@@ -14,7 +14,7 @@ nav_order: 2
 یک زیر دامنه برای خود بسازید
 
 ### مرحله 1: پارامترها
-ابتدا دامنه خود را در 
+ابتدا دامنه خود را در بخش زیر قرار دهید. 
 <form class="form-inline">
   <div class="input-group mb-2 mr-sm-2">
     <div class="input-group-prepend">
@@ -23,12 +23,14 @@ nav_order: 2
     <input  type="text" class="form-control" id="userdomain" placeholder="domain" value="myservice.hiddify.com" oninput="handleValueChange()">
   </div>
 </form>  
-قرار دهید.
+
 
 ### مرحله 2: چک کردن آنکه این زیر دامنه به آی پی متصل است 
-
+با کلیک بر روی دکمه 
 <a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" class="btn btn-primary">check</a>
-اگر تازه انجام داده اید و در بالا نمیبینید 5 دقیقه صبر کنید و مجدد تست کنید
+چک کنید که زیر دامنه درست به IP اشاره میکند.
+اگر تازه انجام داده اید و در بالا IP سرور خود را نمی بینید 5 دقیقه صبر کنید و مجدد تست کنید
+
   
 ### مرحله 3: اجرای اسکریپت
 
