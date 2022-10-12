@@ -68,8 +68,9 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
        <code>
        https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/
        </code>
+       <br/>
        
-       در زیر توضیحات مشخص است.
+       در زیر توضیحات با تصویر نشان داده شده است.
        
        
        
