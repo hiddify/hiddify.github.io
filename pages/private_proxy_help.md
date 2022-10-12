@@ -3,13 +3,12 @@ title: آموزش استفاده
 layout: no_header
 ---
 
+# گذرنده تلگ رام
+گذرنده تلگرام در همه سرورها فعال نیست. در صورتی که در این سرور فعال باشد، بر روی لینک زیر کلیک کنید تا بر روی تلگرام شما تنظیم شود.
+<a href="tg://proxy?server=serverip&port=443&secret=eeusersecret6d61696c2e676f6f676c652e636f6d" class='btn btn-primary'>گذرنده تلگرام کلیک کنید</a>
 
-# پروکسی تلگرام
-پروکسی تلگرام در همه سرورها فعال نیست. در صورتی که در این سرور فعال باشد، بر روی لینک زیر کلیک کنید تا بر روی تلگرام شما تنظیم شود.
-<a href="tg://proxy?server=defaultserverhost&port=443&secret=eedefaultusersecret6d61696c2e676f6f676c652e636f6d" class='btn btn-primary'>پروکسی تلگرام کلیک کنید</a>
 
-
-# پروکسی سایت ها و اپلیکشن ها:
+# گذرنده سایت ها و اپلیکشن ها:
 
 
 <div class="accordion" id="accordionExample">
@@ -30,33 +29,29 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+<!--         <h3> استفاده هوشمند فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
 
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
-<h3>استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر</h3>
-        
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
-
+ -->
         <h3>
-استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+استفاده هوشمند فقط برای سایت های خارجی
         </h3>
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
 
 
         <h3>
-استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
+استفاده  همیشه (کاهش سرعت سایت های داخلی)
         </h3>
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
 
 <h2> کار با کلش اندروید
         </h2>
   
-   چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچک را ندارید
+   چنانچه بر روی دکمه "نصب با یک کلیک" کلیک کرده اید دیگر نیاز به انجام مرحله اول تا پنچم را ندارید
 
         <div class="alert alert-danger">
         چنانچه با خطای Handshake مواجه شدید، لازم است که ابتدا از طریق روش دوم که در پایین این بخش هست استفاده کنید و سپس ادامه مراحل اینجا را طی کنید.
@@ -90,13 +85,19 @@ layout: no_header
         
                 
         <h2>
-        کار با پروکسی در اندروید روش 2
+        کار با گذرنده در اندروید روش 2
         </h2>
-ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. 
-
-<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس گذرنده را انتخاب و اجرا نمایید. 
+        <br/>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
+<br/>
+        <br/>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ 2</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
         
+        
+
       </div>
     </div>
 </div>
@@ -129,28 +130,28 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-        <h3> استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+<!--         <h3> استفاده هوشمند  فقط برای سایت های فیل.تر و واتساپ و اینستاگرام</h3>
 
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
 <h3>استفاده هوشمند از فیلترشکن فقط برای سایت های فیلتر</h3>
         
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/lite.yml" class="btn btn-success copylink">کپی لینک</a>
+ -->
+        <h3>
+استفاده هوشمند  فقط برای سایت های خارجی
+        </h3>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
+
 
         <h3>
-استفاده هوشمند از فیلترشکن فقط برای سایت های خارجی
+استفاده  همیشه (کاهش سرعت سایت های داخلی)
         </h3>
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
-
-
-        <h3>
-استفاده از فیلترشکن همیشه (کاهش سرعت سایت های داخلی)
-        </h3>
-<a href="clash://install-config?url=https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="https://defaultserverhost/defaultusersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
 
         <h2>
 ## کار با کلش ویندوز، مک و لینوکس
@@ -174,13 +175,20 @@ layout: no_header
         <a href="https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518"><img src="/images/badgeiOS.png"></a>
                 
         <h2>
-        کار با پروکسی در iOS
+        کار در iOS
         </h2>
-ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
-
-<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
-<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
+ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس مود را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
         
+<br/>
+
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
+        <br/>
+        <br/>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ 2</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
+        
+        {% include figure.html img="ios_shadow.gif" alt="How to use v2 ray for iOS" caption="How to use clash for iOS" %}
       </div>
     </div>
   </div>
@@ -197,16 +205,16 @@ layout: no_header
   host=document.location.host;
   codes=document.getElementsByTagName('code');
   for (i=0; i<codes.length;i++){
-    codes[i].innerHTML=codes[i].innerHTML.replaceAll('defaultusersecret',secret);
-    codes[i].innerHTML=codes[i].innerHTML.replaceAll('defaultserverhost',host);
+    codes[i].innerHTML=codes[i].innerHTML.replaceAll('usersecret',secret);
+    codes[i].innerHTML=codes[i].innerHTML.replaceAll('proxyproviderip',host);
   }
 
   as=document.getElementsByTagName('a');
   for (i=0; i<as.length;i++){
-    as[i].href=as[i].href.replaceAll('defaultusersecret',secret);
-    as[i].href=as[i].href.replaceAll('defaultserverhost',host);
-    as[i].innerHTML=as[i].innerHTML.replaceAll('defaultusersecret',secret);
-    as[i].innerHTML=as[i].innerHTML.replaceAll('defaultserverhost',host);
+    as[i].href=as[i].href.replaceAll('usersecret',secret);
+    as[i].href=as[i].href.replaceAll('proxyproviderip',host);
+    as[i].innerHTML=as[i].innerHTML.replaceAll('usersecret',secret);
+    as[i].innerHTML=as[i].innerHTML.replaceAll('proxyproviderip',host);
   }
 
   copy_links=document.getElementsByClassName('copylink');
