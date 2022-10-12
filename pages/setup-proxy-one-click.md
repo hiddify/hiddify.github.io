@@ -26,7 +26,8 @@ nav_order: 2
 قرار دهید.
 
 ### مرحله 2: چک کردن آنکه این زیر دامنه به آی پی متصل است 
-<a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" class="btn btn-primary">check</>
+
+<a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" class="btn btn-primary">check</a>
 اگر تازه انجام داده اید و در بالا نمیبینید 5 دقیقه صبر کنید و مجدد تست کنید
   
 ### مرحله 3: اجرای اسکریپت
