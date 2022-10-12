@@ -178,6 +178,16 @@ layout: no_header
         </h2>
 ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس پروکسی را انتخاب و اجرا نمایید. توجه نمایید در iOS نمیتوان رایگان هوشمند کار کرد. 
 
+        
+<br/>
+
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fdefaultusersecret%2Fv2ray%2F%3Bhost%3Ddefaultserverhost%3Btls&udp-over-tcp=true#v2ray_defaultserverhost" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fdefaultusersecret%2Fv2ray%2F%3Bhost%3Ddefaultserverhost%3Btls&udp-over-tcp=true#v2ray_defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
+        <br/>
+        <br/>
+        
+        {% include figure.html img="ios_shadow.gif" alt="How to use v2 ray for iOS" caption="How to use clash for iOS" %}
+        
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="ss://chacha20-ietf-poly1305:defaultusersecret@defaultserverhost:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#defaultserverhost" class="btn btn-success copylink">کپی لینک</a>
         
