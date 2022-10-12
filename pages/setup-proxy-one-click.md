@@ -58,7 +58,7 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
        
-برگرفته از دوستان[FreeInternet](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls)
+برگرفته از دوستان[FreeInternet](https://raw.githubusercontent.com/WeAreMahsaAmini/FreeInternet/main/protocols/shadowsocks-v2ray-tls)
 
 ### 2. Arvancloud setup
 
@@ -68,7 +68,7 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 Domain List > Add new domains
 ```
 
-![Arvancloud dashboard > Add new domain](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_adddomain.jpg 'Click on Add new domain')
+![Arvancloud dashboard > Add new domain](https://raw.githubusercontent.com/WeAreMahsaAmini/FreeInternet/main/protocols/media/arvanclound_adddomain.jpg 'Click on Add new domain')
 
 Then:
 
@@ -77,7 +77,7 @@ Then:
 - Skip DNS Records
 - Note the nameservers presented on the last step
 
-![Add new domain > Nameservers](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_nameservers.jpg 'Copy these nameservers')
+![Add new domain > Nameservers](https://raw.githubusercontent.com/WeAreMahsaAmini/FreeInternet/main/protocols/media/arvanclound_nameservers.jpg 'Copy these nameservers')
 
 - Go to your domain registrar (the website where you bought your domain, e.g. Godaddy, Namecheap, ...)
 - Update the nameservers to the one you got in Arvancloud (after adding the domain).
@@ -85,12 +85,12 @@ Then:
 After your domain nameservers changed successfully (depending on the registrar, it can take a few hours, but it's usually quite fast), your domain is now using Arvancloud DNS.
 
 5. Connect your domain to your server's IP address using `A` records. Make sure the `Cloud Service` option is enabled for each record.
-   ![Add new domain > Nameservers](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_add_dns.jpg 'Enable cloud services')
+   ![Add new domain > Nameservers](https://raw.githubusercontent.com/WeAreMahsaAmini/FreeInternet/main/protocols/media/arvanclound_add_dns.jpg 'Enable cloud services')
 
 6. Go to `HTTPS settings` on the navbar, select `Issue certificate`. It will take around 30 minutes for the certificate to be ready.
 
 7. After the certificate is issued, enable the `Activate HTTPS` option.
-   ![HTTPS Settings > Activate HTTPS](https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/media/arvanclound_https.jpg 'Enable cloud services')
+   ![HTTPS Settings > Activate HTTPS](https://raw.githubusercontent.com/WeAreMahsaAmini/FreeInternet/main/protocols/media/arvanclound_https.jpg 'Enable cloud services')
       </div>
     </div>
   </div>
