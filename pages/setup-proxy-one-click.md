@@ -47,7 +47,6 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 
 # تنظیمات پیشرفته
 
-اگر کار باCDN را آشنایی دارید، کافی است که بر روی دامنه پروکسی را تنظیم کنید
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
@@ -57,11 +56,21 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+
        
-       <a href="https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls" >
        
-برگرفته از دوستان FreeInternet
-       </a>
+برای سرعت بالاتر و گذر از اینترانت کافی است که یک دامنه خریداری کنید (برای مثال از اینجا به قیمت 1 دلار) 
+سپس یک اکانت در ابرآروان ایجاد کنید میتوانید با یک شماره خارجی اینکار را انجام دهید
+سپس nameserver بر روی دامنه ای که خریداری کرده اید را مطابق اعلامی ابرآروان پر کنید
+سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای <code>myservice.hiddify.com</code>  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
+       <code>
+       https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/
+       </code>
+       
+       در زیر توضیحات مشخص است.
+       
+       
+       
 <article class="markdown-body entry-content container-lg" itemprop="text">
 
 
@@ -119,7 +128,10 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 
 
 
-
+<a href="https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls" >
+       
+برگرفته از دوستان FreeInternet
+       </a>
 </article>
       </div>
     </div>
