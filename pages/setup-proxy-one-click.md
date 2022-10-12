@@ -9,12 +9,11 @@ nav_order: 2
 
 # پیش نیازها:
 - یک vps آماده با ubuntu 20.04 و آی پی مثلا `1.1.1.1`
-- یک دامنه یا زیردامنه (برای مثال: `myservice.hiddify.com`)
-## مرحله 1: تنظیم آی پی VPS در دامنه
-یک رکورد A ایجاد کنید که به آی پی VPS (در مثال ما `1.1.1.1`) متصل باشد.
-[آموزش CPANEL](https://my.mihanwebhost.com/knowledgebase.php?action=displayarticle&id=267)
+- یک دامنه یا زیردامنه (برای مثال: `myservice.hiddify.com`) که رکورد A ی آن به آی پی شما وصل باشد. اگر زیر دامنه ندارید از 
+ [این لینک](create-subdomain.html)
+یک زیر دامنه برای خود بسازید
 
-### مرحله 2: اجرای اسکریپت
+### مرحله 1: پارامترها
 ابتدا دامنه خود را در 
 <form class="form-inline">
   <div class="input-group mb-2 mr-sm-2">
@@ -24,11 +23,19 @@ nav_order: 2
     <input  type="text" class="form-control" id="userdomain" placeholder="domain" value="myservice.hiddify.com" oninput="handleValueChange()">
   </div>
 </form>  
+قرار دهید.
+
+### مرحله 2: چک کردن آنکه این زیر دامنه به آی پی متصل است 
+<a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" class="btn btn-primary">check</>
+اگر تازه انجام داده اید و در بالا نمیبینید 5 دقیقه صبر کنید و مجدد تست کنید
+  
+### مرحله 3: اجرای اسکریپت
+
 
 دستور زیر را اجرا کنید
 ```
-wget https://raw.githubusercontent.com/hiddify/config/main/shadowsocks-telegram/setup-ss-tg.sh
-bash setup-ss-tg.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
+wget https://raw.githubusercontent.com/hiddify/config/main/install.sh
+bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 ```
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
 <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
