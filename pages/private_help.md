@@ -34,23 +34,23 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-       <h3> استفاده هوشمند فقط برای سایت های فیلتر </h3>
+       <h3> روش هوشمند فقط برای سایت های فیلتر (سایت های فیلتر نشده بدون هیچ افت سرعتی کار میکنه)</h3>
 
-<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-primary">نصب گذرنده سایت های فیلتر</a>
 <a href="https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
  
         <h3>
-استفاده هوشمند فقط برای سایت های خارجی
+روش هوشمند فقط برای سایت های خارجی (برای گذر از برخی تحریم ها مفید هست)
         </h3>
-<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-primary">نصب گذرنده سایت های غیرایرانی</a>
 <a href="https://proxyproviderip/usersecret/clash/normal.yml" class="btn btn-success copylink">کپی لینک</a>
 
 
         <h3>
 استفاده  همیشه (کاهش سرعت سایت های داخلی)
         </h3>
-<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-primary">نصب با یک کلیک</a>
+<a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-primary">نصب گذرنده همه سایت ها</a>
 <a href="https://proxyproviderip/usersecret/clash/all.yml" class="btn btn-success copylink">کپی لینک</a>
 
 <h2> کار با کلش اندروید
