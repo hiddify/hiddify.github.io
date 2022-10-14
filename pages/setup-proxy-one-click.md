@@ -50,12 +50,11 @@ nav_order: 1
   
 ### مرحله 3: اجرای اسکریپت
 
-
-دستور زیر را اجرا کنید
+به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
 ```
-wget https://raw.githubusercontent.com/hiddify/config/main/install.sh
-bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
+curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s -- 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 ```
+<!--bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
 <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
 <div class="alert alert-success">
