@@ -196,5 +196,5 @@ function handleValueChange(){
     as[i].innerHTML=replace_info(default_contents['a'][i]['inner']);
   }
  }
-
+ handleValueChange();
 </script>
