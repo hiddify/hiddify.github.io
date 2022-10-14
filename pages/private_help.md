@@ -233,12 +233,12 @@ layout: no_header
   secret=document.location.pathname.split('/')[1];
   
   host=document.location.host;
-  cloudprovider=document.location.host;
+  cloudprovid=document.location.host;
                                      
   function replace_info(str){
     str=str.replaceAll('usersecret',secret);                                     
     str=str.replaceAll('proxyproviderip',host);
-    str=str.replaceAll('cloudprovider',cloudprovider);
+    str=str.replaceAll('cloudprovider',cloudprovid);
   
     if (str.startsWith('vmess://'))
       return "vmess://"+btoa(str.substring("vmess://".length))
