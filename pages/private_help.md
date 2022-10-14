@@ -186,11 +186,18 @@ layout: no_header
         
 <br/>
 
-<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"test","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-primary"> نصب کانفیگ جدید</a>
+<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"test","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-success copylink">کپی لینک</a>
+        
+        <br/>
+        <br/>        
+        
+        
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary"> نصب کانفیگ قدیمی</a>
 <a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
         <br/>
         <br/>
-<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ 2</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ قدیمی2</a>
 <a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
         
         {% include figure.html img="ios_shadow.gif" alt="How to use v2 ray for iOS" caption="How to use clash for iOS" %}
@@ -208,18 +215,27 @@ layout: no_header
 <script>
   secret=document.location.pathname.split('/')[1];
   host=document.location.host;
+  cloudprovider=
+  function replace_info(str){
+    str=str.replaceAll('usersecret',secret);
+    str=str.replaceAll('proxyproviderip',host);
+    str=str.replaceAll('cloudprovider',host);
+  
+    if (str.startsWith('vmess://'))
+      return "vmess://"+btoa(str.substring("vmess://".length))
+    return str;
+  }
+    
+  
   codes=document.getElementsByTagName('code');
   for (i=0; i<codes.length;i++){
-    codes[i].innerHTML=codes[i].innerHTML.replaceAll('usersecret',secret);
-    codes[i].innerHTML=codes[i].innerHTML.replaceAll('proxyproviderip',host);
+    codes[i].innerHTML=replace_info(codes[i].innerHTML);
   }
-
+  
   as=document.getElementsByTagName('a');
   for (i=0; i<as.length;i++){
-    as[i].href=as[i].href.replaceAll('usersecret',secret);
-    as[i].href=as[i].href.replaceAll('proxyproviderip',host);
-    as[i].innerHTML=as[i].innerHTML.replaceAll('usersecret',secret);
-    as[i].innerHTML=as[i].innerHTML.replaceAll('proxyproviderip',host);
+    as[i].href=replace_info(as[i].href);
+    as[i].innerHTML=replace_info(as[i].innerHTML);
   }
 
   copy_links=document.getElementsByClassName('copylink');
