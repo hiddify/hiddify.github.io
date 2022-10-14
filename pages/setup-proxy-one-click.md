@@ -31,6 +31,14 @@ nav_order: 1
     <input  type="text" class="form-control" id="userdomain" placeholder="domain" value="myservice.hiddify.com" oninput="handleValueChange()">
   </div>
 </form>  
+<form class="form-inline">
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">secret</div>
+    </div>
+    <input  type="text" class="form-control" id="usersecret" placeholder="secret" pattern="[0-9a-fA-F]{32}" required minlength="32" maxlength="32"  value="751F2F753854422EA4C5FDDB8314F068" oninput="handleValueChange()">
+  </div>
+</form>  
 
 
 ### مرحله 2: چک کردن آنکه این زیر دامنه به آی پی متصل است 
@@ -46,7 +54,7 @@ nav_order: 1
 دستور زیر را اجرا کنید
 ```
 wget https://raw.githubusercontent.com/hiddify/config/main/install.sh
-bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
+bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 ```
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
 <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
@@ -154,12 +162,26 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
 
 
 
-<script src="{{ '/assets/change_secret.js' | relative_url }}"></script>
+
 
 <script>
+ const genRanHex = size => [...Array(size)]
+  .map(() => Math.floor(Math.random() * 16).toString(16)).join('');
+ document.getElementById("usersecret").value=genRanHex(32);
+ 
   codes=document.getElementsByTagName('code');
   as=document.getElementsByTagName('a');
   default_contents={'code':{},'a':{}}
+ 
+ function replace_info(str){
+  var host = document.getElementById("userdomain").value;
+  var secret = document.getElementById("usersecret").value;
+ 
+  str=str.replaceAll('myservice.hiddify.com',host);
+  str=str.replaceAll('751F2F753854422EA4C5FDDB8314F068',secret);
+  return str;
+ }
+ 
   for (i=0; i<codes.length;i++){
     default_contents['code'][i]=codes[i].innerHTML;
   }
@@ -167,16 +189,12 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com
     default_contents['a'][i]={'href':as[i].href,'inner':as[i].innerHTML}
   }
 function handleValueChange(){
-  var host = document.getElementById("userdomain").value;
   for (i=0; i<codes.length;i++){
-    //codes[i].innerHTML=codes[i].innerHTML.replaceAll('defaultusersecret',secret);
-    codes[i].innerHTML=default_contents['code'][i].replaceAll('myservice.hiddify.com',host);
+    codes[i].innerHTML=replace_info(default_contents['code'][i]);
   }
   for (i=0; i<as.length;i++){
-    //as[i].href=as[i].href.replaceAll('defaultusersecret',secret);
-    as[i].href=default_contents['a'][i]['href'].replaceAll('myservice.hiddify.com',host);
-    //as[i].innerHTML=as[i].innerHTML.replaceAll('defaultusersecret',secret);
-    as[i].innerHTML=default_contents['a'][i]['inner'].replaceAll('myservice.hiddify.com',host);
+    as[i].href=replace_info(default_contents['a'][i]['href']);
+    as[i].innerHTML=replace_info(default_contents['a'][i]['inner']);
   }
  }
 
