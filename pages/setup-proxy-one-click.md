@@ -66,16 +66,17 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="heading2">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+    <h2 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23 aria-expanded="true" aria-controls="collapse3">
         نصب مجدد
       </button>
     </h2>
-    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       ابتدا دستور 
-       <code> rm -rf /opt/hiddify-config/ </code> 
-       اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید.
+       ابتدا دستور زیر را اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید. 
+                                 <br>
+        <code> rm -rf /opt/hiddify-config/ </code> 
+        
        </div>
     </div>
   </div>
@@ -190,10 +191,11 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 <a href="https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls" >
        
 برگرفته از دوستان FreeInternet
+ </a>
  
  <h1>اگر از ابرآروان استفاده میکنید</h1>
  به جای زیر پارامتر چهارم در اسکریپت فوق عبارت arvancloud.com را قرار دهید.
-       </a>
+       
 </article>
       </div>
     </div>
