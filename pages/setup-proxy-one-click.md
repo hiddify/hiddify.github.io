@@ -65,10 +65,24 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 # تنظیمات پیشرفته
 
 <div class="accordion" id="accordionExample">
+ 
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+        نصب فقط بخشی از  پروکسی ها
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       کافی است که به جای عبارت all در دستور بالا، یکی از عبارت های telegram-shadowsocks-vmess را قرار دهید یا دوتا را با - کنار هم قرار دهید. مثل telegram-vmess 
+       </div>
+    </div>
+  </div>
+ 
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        توضیحات پیشرفته
+        تنظیم استفاده از CDN
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -153,6 +167,9 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 <a href="https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls" >
        
 برگرفته از دوستان FreeInternet
+ 
+ <h1>اگر از ابرآروان استفاده میکنید</h1>
+ به جای زیر پارامتر چهارم در اسکریپت فوق عبارت arvancloud.com را قرار دهید.
        </a>
 </article>
       </div>
