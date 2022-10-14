@@ -220,11 +220,23 @@ layout: no_header
 }
   </style>
 <script>
+  function parseQuery(queryString) {
+    var query = {};
+    var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+    for (var i = 0; i < pairs.length; i++) {
+        var pair = pairs[i].split('=');
+        query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+    }
+    return query;
+}
+                                     
   secret=document.location.pathname.split('/')[1];
+  
   host=document.location.host;
   cloudprovider=document.location.host;
+                                     
   function replace_info(str){
-    str=str.replaceAll('usersecret',secret);
+    str=str.replaceAll('usersecret',secret);                                     
     str=str.replaceAll('proxyproviderip',host);
     str=str.replaceAll('cloudprovider',cloudprovider);
   
