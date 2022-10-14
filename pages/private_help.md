@@ -34,12 +34,12 @@ layout: no_header
         <h2>لینک تنظیمات:</h2>
 روی یکی از لینک های زیر با توجه به نیازتان **راست کلیک** کرده و کپی کنید
 
-<!--         <h3> استفاده هوشمند فقط برای سایت های فیلتر و واتساپ و اینستاگرام</h3>
+       <h3> استفاده هوشمند فقط برای سایت های فیلتر </h3>
 
 <a href="clash://install-config?url=https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-primary">نصب با یک کلیک</a>
 <a href="https://proxyproviderip/usersecret/clash/lite-meta.yml" class="btn btn-success copylink">کپی لینک</a>
 
- -->
+ 
         <h3>
 استفاده هوشمند فقط برای سایت های خارجی
         </h3>
