@@ -10,6 +10,7 @@ nav_order: 1
 - Signal Proxy
 - Shadowsocks+obfs
 - Shadowsocks+v2ray
+- vmess
 - DNS over HTTPS
 - Automatic use proxy for non-Iranian sites
 
