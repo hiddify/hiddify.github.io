@@ -65,6 +65,20 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 # تنظیمات پیشرفته
 
 <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+        نصب مجدد
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       ابتدا دستور 
+       <code> rm -rf /opt/hiddify-config/ </code> 
+       اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید.
+       </div>
+    </div>
+  </div>
  
   <div class="accordion-item">
     <h2 class="accordion-header" id="heading2">
