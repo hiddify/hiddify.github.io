@@ -192,8 +192,8 @@ layout: no_header
         
 <br/>
 
-<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"proxyproviderip","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-primary"> نصب کانفیگ جدید</a>
-<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"test","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-success copylink">کپی لینک</a>
+<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"userguidsecret","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"proxyproviderip","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-primary"> نصب کانفیگ جدید</a>
+<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"userguidsecret","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"test","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-success copylink">کپی لینک</a>
 
         <!--
         <br/>
