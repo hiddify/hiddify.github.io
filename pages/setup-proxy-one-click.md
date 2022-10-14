@@ -107,7 +107,7 @@ curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s 
 برای سرعت بالاتر و گذر از اینترانت کافی است که یک دامنه خریداری کنید (برای مثال از 
        <a href="https://www.namecheap.com/promos/99-cent-domain-names/">اینجا به قیمت 1 دلار</a>
         یا 
-       <a href="https://www.freenom.org/">اینجا رایگان</a>
+       <a href="https://www.freenom.com/">اینجا رایگان</a>
        ) 
        <br />
        قبل از خرید دامنه ابتدا دامنه را چک کنید که در ابرآروان مورد پذیرش قرار دهد
