@@ -5,16 +5,18 @@ nav_order: 1
 ---
 
 در این مقاله به شما آموزش میدهیم چگونه یک فیلترشکن اختصاصی مالتی پروتوکل در پورت 443 ایجاد کنید.
-موارد پشتیبانی شده
-- Telegram Proxy
-- Signal Proxy
-- Shadowsocks+obfs
-- Shadowsocks+v2ray
-- vmess
-- DNS over HTTPS
+موارد پشتیبانی شده- Telegram Proxy (faketls with fallback)
+- Shadowsocks+obfs (faketls with fallback)
+- Shadowsocks+v2ray (cdn support)
+- vmess (cdn support)
+- DNS over HTTPS (cdn support)
+- Redirector (cdn support)
 - Automatic use proxy for non-Iranian sites
+- Active probing resistant
 
 همچنین سعی شده تا جلوی کشف پروکسی نیز توسط فیلترچی گرفته شود
+
+کلیه سورس کدها در [گیت هاب](https://github.com/hiddify/hiddify-config) 
 
 # پیش نیازها:
 - یک vps آماده با ubuntu 20.04 و آی پی مثلا `1.1.1.1`
