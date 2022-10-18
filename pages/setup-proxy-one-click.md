@@ -6,11 +6,12 @@ nav_order: 1
 
 در این مقاله به شما آموزش میدهیم چگونه یک فیلترشکن اختصاصی مالتی پروتوکل در پورت 443 ایجاد کنید.
 موارد پشتیبانی شده- Telegram Proxy (faketls with fallback)
-- Shadowsocks+obfs (faketls with fallback)
+- MTProxy Proxy for Telegram (faketls with fallback) `faketls domain=mail.google.com` 
+- Shadowsocks+obfs (faketls with fallback) `faketls domain=www.google.com` 
 - Shadowsocks+v2ray (cdn support)
 - vmess (cdn support)
-- DNS over HTTPS (cdn support)  https://yourdomain.com/yoursecret/dns/dnsquery
-- Redirector (cdn support)
+- DNS over HTTPS (cdn support)  `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
+- Redirector (cdn support) `https://yourdomain.com/yoursecret/redirect/fullURL` ex. `https://yourdomain.com/yoursecret/redirect/ss://secret/`
 - Automatic use proxy for non-Iranian sites
 - Active probing resistant
 
@@ -54,7 +55,7 @@ nav_order: 1
 ### مرحله 3: اجرای اسکریپت
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
-<a href="bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com" class="copylink">Copy</a>
+<a href="bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com" class="btn btn-primary copylink">Copy</a>
 ```
 bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com
 ```
