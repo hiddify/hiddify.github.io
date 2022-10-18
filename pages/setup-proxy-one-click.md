@@ -9,7 +9,7 @@ nav_order: 1
 - Shadowsocks+obfs (faketls with fallback)
 - Shadowsocks+v2ray (cdn support)
 - vmess (cdn support)
-- DNS over HTTPS (cdn support)
+- DNS over HTTPS (cdn support)  https://yourdomain.com/yoursecret/dns/dnsquery
 - Redirector (cdn support)
 - Automatic use proxy for non-Iranian sites
 - Active probing resistant
@@ -54,10 +54,13 @@ nav_order: 1
 ### مرحله 3: اجرای اسکریپت
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
+<a href="bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com" class="copylink">Copy</a>
 ```
+bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com
+```
+<!--
 curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s -- 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
-```
-<!--bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
+bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
 پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
 <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
 <div class="alert alert-success">
@@ -242,4 +245,20 @@ function handleValueChange(){
   }
  }
  handleValueChange();
+ 
+ 
+  copy_links=document.getElementsByClassName('copylink');
+  function copy_click(e){
+    e.preventDefault(); 
+    console.log(this);console.log(e);
+    var link=this.href;
+    navigator.clipboard.writeText(link).then(function() {
+      alert('Link Copied to clipboard '+link);
+    }, function(err) {
+        window.prompt("Copy to clipboard: Ctrl+C, Enter", link);
+    });
+  }
+  for (i=0; i<copy_links.length;i++){
+    copy_links[i].onclick=copy_click;
+  }
 </script>
