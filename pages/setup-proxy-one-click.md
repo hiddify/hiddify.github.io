@@ -135,48 +135,22 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myser
 
 # تنظیمات پیشرفته
 
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="heading3">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-        نصب مجدد
-      </button>
-    </h2>
-    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-      <div class="accordion-body" markdown="1">
-       
+<details markdown="1"> <summary>نصب مجدد</summary>
+
        ابتدا دستور زیر را اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید. 
                                  
-       ```
-       rm -rf /opt/hiddify-config/ 
-       ```
-        
-       </div>
-    </div>
-  </div>
- 
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="heading2">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-        نصب فقط بخشی از  پروکسی ها
-      </button>
-    </h2>
-    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       کافی است که به جای عبارت all در دستور بالا، یکی از عبارت های telegram-shadowsocks-vmess را قرار دهید یا دوتا را با - کنار هم قرار دهید. مثل telegram-vmess 
-       </div>
-    </div>
-  </div>
- 
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        تنظیم استفاده از CDN
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body" markdown="1">
+```
+rm -rf /opt/hiddify-config/ 
+```
 
+</details>
+<details markdown="1"> <summary>نصب فقط بخشی از  پروکسی ها</summary>
+    
+    
+       کافی است که به جای عبارت all در دستور بالا، یکی از عبارت های telegram-shadowsocks-vmess را قرار دهید یا دوتا را با - کنار هم قرار دهید. مثل telegram-vmess 
+</details>
+
+<details markdown="1"> <summary> CDN Support</summary>
        
        
 برای سرعت بالاتر و گذر از اینترانت کافی است که یک دامنه خریداری کنید (برای مثال از 
@@ -186,26 +160,17 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myser
        ) 
        
 - قبل از خرید دامنه ابتدا دامنه را چک کنید که در ابرآروان مورد پذیرش قرار دهد
-       <br />
 - سپس یک اکانت در ابرآروان ایجاد کنید میتوانید با یک شماره خارجی اینکار را انجام دهید
-       <br />
 - سپس nameserver بر روی دامنه ای که خریداری کرده اید را مطابق اعلامی ابرآروان پر کنید
-       <br />
 - سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای <code>myservice.hiddify.com</code>  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
-       
-       <br />
 - سپس لینک زیر را با تغییر در نامه دامنه در مرورگر جهت مشاهده تنظیمات باز کنید.
-       <br/>
-       <code>
+```
        https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/
-       </code>
-       <br/>
-       
+```    
+
        در زیر توضیحات با تصویر نشان داده شده است.
        
        
-       
-<article class="markdown-body entry-content container-lg" itemprop="text" markdown="1">
 
 
  ### 2. Arvancloud setup
@@ -252,15 +217,11 @@ After your domain nameservers changed successfully (depending on the registrar, 
        
 برگرفته از دوستان FreeInternet
  </a>
- 
- <h1>اگر از ابرآروان استفاده میکنید</h1>
+
+
+# اگر از ابرآروان استفاده میکنید
  به جای زیر پارامتر چهارم در اسکریپت فوق عبارت arvancloud.com را قرار دهید.
        
-</article>
-      </div>
-    </div>
-  </div>
-
 
 
 
