@@ -7,7 +7,7 @@ nav_order: 1
 در این مقاله به شما آموزش میدهیم چگونه یک فیلترشکن اختصاصی مالتی پروتوکل در پورت 443 ایجاد کنید.
 موارد پشتیبانی شده:
 
-<details> <summary>Telegram MTProxy Proxy</summary>
+<details markdown="1"> <summary>Telegram MTProxy Proxy</summary>
  
  پروکسی ایجاد شده یک پروکسی faketls هست که در صورتی که کلاینت غیر تلگرام به آن متصل شود سایت گوگل را نشان می‌دهد.
 
@@ -21,20 +21,20 @@ nav_order: 1
  `faketls domain=www.google.com` 
  
 </details>
-<details> <summary>Shadowsocks+v2ray (cdn support)</summary>
+<details markdown="1"> <summary>Shadowsocks+v2ray (cdn support)</summary>
  
  این پروکسی، از v2ray استفاده میکند و یک زیرمسیر از سایت که با tls و http2 فعال است استفاده میکند
 
 </details>
-<details> <summary>vmess (cdn support)</summary> Same as v2ray</details>
-<details> <summary>DNS over HTTPS (cdn support)</summary>
+<details markdown="1"> <summary>vmess (cdn support)</summary> Same as v2ray</details>
+<details markdown="1"> <summary>DNS over HTTPS (cdn support)</summary>
  
  برای استفاده از DNS over HTTPS کافی است در مرورگر از dns زیر استفاده کنید:
  
  `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
  
 </details>
-<details> <summary>Redirector (cdn support)</summary> 
+<details markdown="1"> <summary>Redirector (cdn support)</summary> 
  
  نکته این امر آن است که برای مثال وقتی میخواهید پروکسی تلگرام یا پروکسی شدوساکس را از طریق برنامه های دیگر به اشتراک بگذارید امکان آن فراهم می شود. برای مثال اگر کانفیگ شدوساکس را به جای `fullURL` آن قرار دهید باعث میشود با کلیک بر روی این لینک، نرم افزار شدوساکس باز شده و پروکسی بر روی آن فعال شود.
  
@@ -63,12 +63,12 @@ nav_order: 1
 
 
 </details>
- <details> <summary>Active probing resistant</summary>
+ <details markdown="1"> <summary>Active probing resistant</summary>
  
  سعی شده جلوی حملات معمول به سرور گرفته شود و امکان شناسایی حداقل باشد مع الذالک فراموش نکنید که سایر پورت ها به جز 22، 80 و 443 را غیر فعال کنید
 
 </details>
- <details> <summary>صفحات راهنمای کاربران</summary> 
+ <details markdown="1"> <summary>صفحات راهنمای کاربران</summary> 
  
 ![image](https://user-images.githubusercontent.com/114227601/196612827-7a39a914-cdfc-408e-aa73-1343bc312f6c.png)
 
@@ -114,13 +114,10 @@ nav_order: 1
 ### مرحله 3: اجرای اسکریپت
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto">
- 
 ```
 bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com
 ```
             
-            </div>
 <!--
 curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s -- 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
@@ -141,10 +138,12 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myser
       </button>
     </h2>
     <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
+      <div class="accordion-body" markdown="1">
        ابتدا دستور زیر را اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید. 
-                                 <br/>
-        <code> rm -rf /opt/hiddify-config/ </code> 
+                                 
+       ```
+       rm -rf /opt/hiddify-config/ 
+       ```
         
        </div>
     </div>
@@ -170,26 +169,26 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myser
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
+      <div class="accordion-body" markdown="1">
 
        
        
 برای سرعت بالاتر و گذر از اینترانت کافی است که یک دامنه خریداری کنید (برای مثال از 
-       <a href="https://www.namecheap.com/promos/99-cent-domain-names/">اینجا به قیمت 1 دلار</a>
+       [اینجا به قیمت 1 دلار](https://www.namecheap.com/promos/99-cent-domain-names/)
         یا 
        <a href="https://www.freenom.com/">اینجا رایگان</a>
        ) 
+       
+- قبل از خرید دامنه ابتدا دامنه را چک کنید که در ابرآروان مورد پذیرش قرار دهد
        <br />
-       قبل از خرید دامنه ابتدا دامنه را چک کنید که در ابرآروان مورد پذیرش قرار دهد
+- سپس یک اکانت در ابرآروان ایجاد کنید میتوانید با یک شماره خارجی اینکار را انجام دهید
        <br />
-سپس یک اکانت در ابرآروان ایجاد کنید میتوانید با یک شماره خارجی اینکار را انجام دهید
+- سپس nameserver بر روی دامنه ای که خریداری کرده اید را مطابق اعلامی ابرآروان پر کنید
        <br />
-سپس nameserver بر روی دامنه ای که خریداری کرده اید را مطابق اعلامی ابرآروان پر کنید
-       <br />
-سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای <code>myservice.hiddify.com</code>  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
+- سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای <code>myservice.hiddify.com</code>  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
        
        <br />
-       سپس لینک زیر را با تغییر در نامه دامنه در مرورگر جهت مشاهده تنظیمات باز کنید.
+- سپس لینک زیر را با تغییر در نامه دامنه در مرورگر جهت مشاهده تنظیمات باز کنید.
        <br/>
        <code>
        https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/
