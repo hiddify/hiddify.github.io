@@ -137,7 +137,7 @@ bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myser
 
 <details markdown="1"> <summary>نصب مجدد</summary>
 
-       ابتدا دستور زیر را اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید. 
+ابتدا دستور زیر را اجرا کنید و سپس دستورات بالا را مجدد اجرا کنید. 
                                  
 ```
 rm -rf /opt/hiddify-config/ 
@@ -146,29 +146,28 @@ rm -rf /opt/hiddify-config/
 </details>
 <details markdown="1"> <summary>نصب فقط بخشی از  پروکسی ها</summary>
     
-    
-       کافی است که به جای عبارت all در دستور بالا، یکی از عبارت های telegram-shadowsocks-vmess را قرار دهید یا دوتا را با - کنار هم قرار دهید. مثل telegram-vmess 
+کافی است که به جای عبارت all در دستور بالا، یکی از عبارت های `telegram-shadowsocks-vmess` را قرار دهید یا دوتا را با - کنار هم قرار دهید. مثل `telegram-vmess` 
 </details>
 
 <details markdown="1"> <summary> CDN Support</summary>
        
        
 برای سرعت بالاتر و گذر از اینترانت کافی است که یک دامنه خریداری کنید (برای مثال از 
-       [اینجا به قیمت 1 دلار](https://www.namecheap.com/promos/99-cent-domain-names/)
-        یا 
-       <a href="https://www.freenom.com/">اینجا رایگان</a>
-       ) 
+[اینجا به قیمت 1 دلار](https://www.namecheap.com/promos/99-cent-domain-names/)
+یا 
+[اینجا رایگان](https://www.freenom.com/) 
        
 - قبل از خرید دامنه ابتدا دامنه را چک کنید که در ابرآروان مورد پذیرش قرار دهد
 - سپس یک اکانت در ابرآروان ایجاد کنید میتوانید با یک شماره خارجی اینکار را انجام دهید
 - سپس nameserver بر روی دامنه ای که خریداری کرده اید را مطابق اعلامی ابرآروان پر کنید
-- سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای <code>myservice.hiddify.com</code>  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
+- سپس روی زیر دامنه دلخواه، آی پی سرور را تنظیم کنید و تیک کلود سرویس  را تنظیم کنید و سپس به جای `myservice.hiddify.com`  زیردامنه جدید خود را تنظیم کنید. لازم است این زیر دامنه با دامنه ای که در بالا انتخاب کرده اید متفاوت باشد.
 - سپس لینک زیر را با تغییر در نامه دامنه در مرورگر جهت مشاهده تنظیمات باز کنید.
+
 ```
        https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/
 ```    
 
-       در زیر توضیحات با تصویر نشان داده شده است.
+در زیر توضیحات با تصویر نشان داده شده است.
        
        
 
@@ -258,20 +257,5 @@ function handleValueChange(){
   }
  }
  handleValueChange();
- 
- 
-  copy_links=document.getElementsByClassName('copylink');
-  function copy_click(e){
-    e.preventDefault(); 
-    console.log(this);console.log(e);
-    var link=this.href;
-    navigator.clipboard.writeText(link).then(function() {
-      alert('Link Copied to clipboard '+link);
-    }, function(err) {
-        window.prompt("Copy to clipboard: Ctrl+C, Enter", link);
-    });
-  }
-  for (i=0; i<copy_links.length;i++){
-    copy_links[i].onclick=copy_click;
-  }
+
 </script>
