@@ -63,7 +63,7 @@ nav_order: 1
 
 
 </details>
- <details markdown="1"> <summary>Active probing resistant</summary>
+ <details markdown="1"> <summary>مقاوم در برابر کشف توسط فیلترچی</summary>
  
  سعی شده جلوی حملات معمول به سرور گرفته شود و امکان شناسایی حداقل باشد مع الذالک فراموش نکنید که سایر پورت ها به جز 22، 80 و 443 را غیر فعال کنید
 
@@ -73,11 +73,10 @@ nav_order: 1
 ![image](https://user-images.githubusercontent.com/114227601/196612827-7a39a914-cdfc-408e-aa73-1343bc312f6c.png)
 
 </details>
-
-همچنین سعی شده تا جلوی کشف پروکسی نیز توسط فیلترچی گرفته شود
+<details markdown="1"> <summary>Open Source</summary> 
 
 کلیه سورس کدها در [گیت هاب](https://github.com/hiddify/hiddify-config) 
-
+</details>
 # پیش نیازها:
 - یک vps آماده با ubuntu 20.04 و آی پی مثلا `1.1.1.1`
 - یک دامنه یا زیردامنه (برای مثال: `myservice.hiddify.com`) که رکورد A ی آن به آی پی شما وصل باشد. اگر زیر دامنه ندارید از 
