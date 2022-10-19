@@ -5,15 +5,50 @@ nav_order: 1
 ---
 
 در این مقاله به شما آموزش میدهیم چگونه یک فیلترشکن اختصاصی مالتی پروتوکل در پورت 443 ایجاد کنید.
-موارد پشتیبانی شده- Telegram Proxy (faketls with fallback)
-- MTProxy Proxy for Telegram (faketls with fallback) `faketls domain=mail.google.com` 
-- Shadowsocks+obfs (faketls with fallback) `faketls domain=www.google.com` 
-- Shadowsocks+v2ray (cdn support)
-- vmess (cdn support)
-- DNS over HTTPS (cdn support)  `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
-- Redirector (cdn support) `https://yourdomain.com/yoursecret/redirect/fullURL` ex. `https://yourdomain.com/yoursecret/redirect/ss://secret/`
-- Automatic use proxy for non-Iranian sites
-- Active probing resistant
+موارد پشتیبانی شده:
+
+<details> <summary>Telegram MTProxy Proxy</summary>
+ پروکسی ایجاد شده یک پروکسی faketls هست که در صورتی که کلاینت غیر تلگرام به آن متصل شود سایت گوگل را نشان می‌دهد.
+ `(faketls domain=mail.google.com)`
+</details>
+<details> <summary>Shadowsocks+obfs </summary>
+ پروکسی شدوساکس مشابه پروکسی تلگرام فوق، از faketls استفاده میکند تا ترافیک شدوساکس را پنهان کند.
+ 
+ `faketls domain=www.google.com` 
+</details>
+<details> <summary>Shadowsocks+v2ray (cdn support)</summary>
+ این پروکسی، از v2ray استفاده میکند و یک زیرمسیر از سایت که با tls و http2 فعال است استفاده میکند
+</details>
+<details> <summary>vmess (cdn support)</summary>مشابه v2ray</details>
+<details> <summary>DNS over HTTPS (cdn support)</summary>
+ برای استفاده از DNS over HTTPS کافی است در مرورگر از dns زیر استفاده کنید: `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
+</details>
+<details> <summary>Redirector (cdn support)</summary> 
+ نکته این امر آن است که برای مثال وقتی میخواهید پروکسی تلگرام یا پروکسی شدوساکس را از طریق برنامه های دیگر به اشتراک بگذارید امکان آن فراهم می شود. برای مثال اگر کانفیگ شدوساکس را در انتهای آن قرار دهید باعث میشود با کلیک بر روی این لینک، نرم افزار شدوساکس باز شده و پروکسی بر روی آن فعال شود.
+ `https://yourdomain.com/yoursecret/redirect/fullURL` ex. `https://yourdomain.com/yoursecret/redirect/ss://secret/` 
+</details>
+ <details> <summary>پروکسی هوشمند برای سایت های غیر ایرانی و فیلترشده </summary>
+ 
+ با استفاده از کلاینت کلش و کانفیگی که درست کردیم میتوانید در 3 مود به اینترنت وصل بشید. 
+ - روش اول فقط سایت فیلترشده را از فیلترشکن عبور دهد.
+    - مشکلات: 
+       - در شرایط فیلترینگ شدید الان که تقریبا همه سایت ها فیلتر شده یک مقدار خوب نیست 
+       - سایت هایی که ایران را تحریم کرده اند کار نمیکنند
+ 
+ - فقط سایت های ایرانی بدون فیلترشکن باز شود (پیشنهادی)
+ - تمام سایت ها از فیلترشکن عبور کنند
+   - مشکلات: 
+       - سرعت بازدید از صفحات ایرانی کمتر شود 
+       - باعث شود سرور شما سریعتر شناسایی شود
+ 
+ کانفیگ اول یا دوم کمک به دیرتر شناسایی شدن پروکسی میکند و کانفیگ سوم ممکن است 
+
+
+</details>
+ <details> <summary>Active probing resistant</summary>
+ سعی شده جلوی حملات معمول به سرور گرفته شود و امکان شناسایی حداقل باشد مع الذالک فراموش نکنید که سایر پورت ها به جز 22، 80 و 443 را غیر فعال کنید
+</details>
+ <details> <summary>Client Configuration Page ScreenShot</summary> </details>
 
 همچنین سعی شده تا جلوی کشف پروکسی نیز توسط فیلترچی گرفته شود
 
