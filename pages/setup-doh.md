@@ -1,7 +1,6 @@
 ---
 title: راه اندازی ساده DoH
-nav: راه اندازی DOH
-nav_order: 2
+
 ---
 
 
