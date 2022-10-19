@@ -106,7 +106,7 @@ nav_order: 1
 
 ### مرحله 2: چک کردن آنکه این زیر دامنه به آی پی متصل است 
 با کلیک بر روی دکمه 
-<a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" class="btn btn-primary">check</a>
+<a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" target="_blank" class="btn btn-primary">check</a>
 چک کنید که زیر دامنه درست به IP اشاره میکند.
 اگر تازه انجام داده اید و در بالا IP سرور خود را نمی بینید 5 دقیقه صبر کنید و مجدد تست کنید
 
@@ -114,10 +114,13 @@ nav_order: 1
 ### مرحله 3: اجرای اسکریپت
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
-<a href="bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com" class="btn btn-primary copylink">Copy</a>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+ 
 ```
 bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com
 ```
+            
+            </div>
 <!--
 curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s -- 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
