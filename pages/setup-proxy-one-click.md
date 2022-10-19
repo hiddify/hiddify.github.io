@@ -8,24 +8,42 @@ nav_order: 1
 موارد پشتیبانی شده:
 
 <details> <summary>Telegram MTProxy Proxy</summary>
+ 
  پروکسی ایجاد شده یک پروکسی faketls هست که در صورتی که کلاینت غیر تلگرام به آن متصل شود سایت گوگل را نشان می‌دهد.
+
  `(faketls domain=mail.google.com)`
+ 
 </details>
 <details> <summary>Shadowsocks+obfs </summary>
- پروکسی شدوساکس مشابه پروکسی تلگرام فوق، از faketls استفاده میکند تا ترافیک شدوساکس را پنهان کند.
  
+ پروکسی شدوساکس مشابه پروکسی تلگرام فوق، از faketls استفاده میکند تا ترافیک شدوساکس را پنهان کند.
+
  `faketls domain=www.google.com` 
+ 
 </details>
 <details> <summary>Shadowsocks+v2ray (cdn support)</summary>
+ 
  این پروکسی، از v2ray استفاده میکند و یک زیرمسیر از سایت که با tls و http2 فعال است استفاده میکند
+
 </details>
-<details> <summary>vmess (cdn support)</summary>مشابه v2ray</details>
+<details> <summary>vmess (cdn support)</summary> Same as v2ray</details>
 <details> <summary>DNS over HTTPS (cdn support)</summary>
- برای استفاده از DNS over HTTPS کافی است در مرورگر از dns زیر استفاده کنید: `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
+ 
+ برای استفاده از DNS over HTTPS کافی است در مرورگر از dns زیر استفاده کنید:
+ 
+ `https://yourdomain.com/yoursecret/dns/dns-query{?dns}`
+ 
 </details>
 <details> <summary>Redirector (cdn support)</summary> 
- نکته این امر آن است که برای مثال وقتی میخواهید پروکسی تلگرام یا پروکسی شدوساکس را از طریق برنامه های دیگر به اشتراک بگذارید امکان آن فراهم می شود. برای مثال اگر کانفیگ شدوساکس را در انتهای آن قرار دهید باعث میشود با کلیک بر روی این لینک، نرم افزار شدوساکس باز شده و پروکسی بر روی آن فعال شود.
- `https://yourdomain.com/yoursecret/redirect/fullURL` ex. `https://yourdomain.com/yoursecret/redirect/ss://secret/` 
+ 
+ نکته این امر آن است که برای مثال وقتی میخواهید پروکسی تلگرام یا پروکسی شدوساکس را از طریق برنامه های دیگر به اشتراک بگذارید امکان آن فراهم می شود. برای مثال اگر کانفیگ شدوساکس را به جای `fullURL` آن قرار دهید باعث میشود با کلیک بر روی این لینک، نرم افزار شدوساکس باز شده و پروکسی بر روی آن فعال شود.
+ 
+ `https://yourdomain.com/yoursecret/redirect/fullURL` 
+ 
+ به عنوان مثال:
+ 
+ `https://yourdomain.com/yoursecret/redirect/ss://secret/` 
+ 
 </details>
  <details> <summary>پروکسی هوشمند برای سایت های غیر ایرانی و فیلترشده </summary>
  
@@ -46,9 +64,15 @@ nav_order: 1
 
 </details>
  <details> <summary>Active probing resistant</summary>
+ 
  سعی شده جلوی حملات معمول به سرور گرفته شود و امکان شناسایی حداقل باشد مع الذالک فراموش نکنید که سایر پورت ها به جز 22، 80 و 443 را غیر فعال کنید
+
 </details>
- <details> <summary>Client Configuration Page ScreenShot</summary> </details>
+ <details> <summary>صفحات راهنمای کاربران</summary> 
+ 
+![image](https://user-images.githubusercontent.com/114227601/196612827-7a39a914-cdfc-408e-aa73-1343bc312f6c.png)
+
+</details>
 
 همچنین سعی شده تا جلوی کشف پروکسی نیز توسط فیلترچی گرفته شود
 
