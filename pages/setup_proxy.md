@@ -51,51 +51,6 @@ nav_order: 1
 
 
 
-
-
-<!-- 
-[لینک](https://portal.azure.com/)
-  کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
-
-در این گیف یک مقدار کد نیاز است که از زیر آن را کپی کنید
-```
-#cloud-config
-users:
-  - default
-  - name: tgproxy
-package_upgrade: true
-packages:
-  - python3
-  - python3-uvloop 
-  - python3-cryptography
-  - python3-socks 
-  - libcap2-bin 
-  - ca-certificates
-  - curl
-  - wget
-  - gnupg-agent
-  - software-properties-common
-  - git
-runcmd:
-  # install docker following the guide: https://docs.docker.com/install/linux/docker-ce/ubuntu/
-  - cd /opt/
-  - git clone https://github.com/alexbers/mtprotoproxy 
-  - cd  mtprotoproxy
-  - sed -i 's/00000000000000000000000000000001/751F2F753854422EA4C5FDDB8314F068/g' config.py
-  - echo 'TLS_DOMAIN = "google.com"'>> config.py
-  - wget https://raw.githubusercontent.com/hiddify/config/main/mtproxy.service
-  - sudo mv mtproxy.service /etc/systemd/system/
-  - sudo systemctl enable mtproxy.service
-  - sudo systemctl start mtproxy.service
-power_state:
-  mode: reboot
-  message: Restarting after installing
-```
-{% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
-
-پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی تلگرام اختصاصی لذت ببرید
- -->
-
   
 ### مرحله 3: ساخت یک ماشین مجازی در azure برای پروکسی سایت ها و اپلیکیشن ها
 
@@ -114,53 +69,6 @@ power_state:
 و لینک پروکسی را از قسمت `output` کپی کنید. فراموش نکنید که این لینک پاک می شود پس آن را در جای امنی ذخیره کنید
 </div>
 سپس لینک را باز کرده تا آموزش استفاده از پروکسی نمایش داده شود. 
-<!-- 
-بر روی این
-[لینک](https://portal.azure.com/)
-  کلیک کنید و مراحل را مطابق گیف زیر ادامه دهید.
- در گیف زیر به جای telegram عبارت gost را قرار دهید
 
-در این گیف یک مقدار کد نیاز است که از زیر آن را کپی کنید
-```
-#cloud-config
-groups:
-  - gost
-users:
-  - default
-package_upgrade: true
-packages:
-  - apt-transport-https
-  - ca-certificates
-  - curl
-  - wget
-  - gnupg-agent
-  - software-properties-common
-  - git
-runcmd:
-  - mkdir -p /opt/gost; cd /opt/gost
-  - wget https://github.com/ginuerzh/gost/releases/download/v2.11.4/gost-linux-amd64-2.11.4.gz
-  - gunzip gost*
-  - mv gost* gost
-  - chmod +x gost
-  - wget https://raw.githubusercontent.com/hiddify/config/main/gost-systemd.service -O gost.service
-  - sed -i 's/user:pass/751F2F753854422EA4C5FDDB8314F068:1/g' gost.service
-  - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.service
-  - wget https://raw.githubusercontent.com/hiddify/config/main/clash_url.py
-  - sed -i 's/00000000000000000000000000000001/751F2F753854422EA4C5FDDB8314F068/g' clash_url.py
-  - openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nodes -subj "/C=GB/ST=London/L=London/O=Google Trust Services LLC/CN=www.google.com"
-  - sudo mv gost.service /etc/systemd/system/
-  - sudo mv clash_url.service /etc/systemd/system/
-  - sudo systemctl enable gost.service
-  - sudo systemctl start gost.service
-  - sudo systemctl enable clash_url.service
-  - sudo systemctl start clash_url.service
-power_state:
-  mode: reboot
-  message: Restarting after installing docker & docker-compose
-```
-{% include figure.html img="http://hiddify.github.io/assets/create-vm.gif" alt="create vm in azure" caption="How to create a vm in azure" %}
-
-پس از کپی کردن ip ارائه شده آن را به جای `serverip` در لینک زیر قرار دهید و از پروکسی اختصاصی لذت ببرید
- -->
 
 <script src="{{ '/assets/change_secret.js' | relative_url }}"></script>
