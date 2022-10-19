@@ -26,7 +26,11 @@ nav_order: 1
  این پروکسی، از v2ray استفاده میکند و یک زیرمسیر از سایت که با tls و http2 فعال است استفاده میکند
 
 </details>
-<details markdown="1"> <summary>vmess (cdn support)</summary> Same as v2ray</details>
+<details markdown="1"> <summary>vmess (cdn support)</summary>
+
+Same as v2ray
+
+</details>
 <details markdown="1"> <summary>DNS over HTTPS (cdn support)</summary>
  
  برای استفاده از DNS over HTTPS کافی است در مرورگر از dns زیر استفاده کنید:
