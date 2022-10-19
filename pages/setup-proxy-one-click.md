@@ -213,10 +213,8 @@ After your domain nameservers changed successfully (depending on the registrar, 
 
 
 
-<a href="https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls" >
+(توضیحات بخش CDN برگرفته از دوستان FreeInternet)[https://github.com/WeAreMahsaAmini/FreeInternet/tree/main/protocols/shadowsocks-v2ray-tls]
        
-برگرفته از دوستان FreeInternet
- </a>
 
 
 # اگر از ابرآروان استفاده میکنید
