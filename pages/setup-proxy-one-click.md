@@ -14,7 +14,7 @@ nav_order: 1
  `(faketls domain=mail.google.com)`
  
 </details>
-<details> <summary>Shadowsocks+obfs </summary>
+<details  markdown="1"> <summary>Shadowsocks+obfs </summary>
  
  پروکسی شدوساکس مشابه پروکسی تلگرام فوق، از faketls استفاده میکند تا ترافیک شدوساکس را پنهان کند.
 
@@ -45,7 +45,7 @@ nav_order: 1
  `https://yourdomain.com/yoursecret/redirect/ss://secret/` 
  
 </details>
- <details> <summary>پروکسی هوشمند برای سایت های غیر ایرانی و فیلترشده </summary>
+ <details  markdown="1"> <summary>پروکسی هوشمند برای سایت های غیر ایرانی و فیلترشده </summary>
  
  با استفاده از کلاینت کلش و کانفیگی که درست کردیم میتوانید در 3 مود به اینترنت وصل بشید. 
  - روش اول فقط سایت فیلترشده را از فیلترشکن عبور دهد.
