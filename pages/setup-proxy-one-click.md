@@ -74,7 +74,8 @@ Same as v2ray
 </details>
  <details markdown="1"> <summary>صفحات راهنمای کاربران</summary> 
  
-![image](https://user-images.githubusercontent.com/114227601/196612827-7a39a914-cdfc-408e-aa73-1343bc312f6c.png)
+ {% include figure.html img="https://user-images.githubusercontent.com/114227601/196612827-7a39a914-cdfc-408e-aa73-1343bc312f6c.png" caption="صفحه راهنمای کاربران" %}
+
 
 </details>
 <details markdown="1"> <summary>Open Source</summary> 
