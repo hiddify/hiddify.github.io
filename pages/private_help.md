@@ -94,17 +94,17 @@ layout: no_header
         </h2>
 ابتدا  بر روی دکمه "نصب با یک کلیک" کلیک کنید و سپس گذرنده را انتخاب و اجرا نمایید. 
         <br/>
-<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary">نصب کانفیگ 1</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-primary">نصب کانفیگ v2ray</a>
 <a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D%2Fusersecret%2Fv2ray%2F%3Bhost%3Dproxyproviderip%3Btls&udp-over-tcp=true#v2ray_proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
 <br/>
         <br/>
-<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ 2</a>
+<a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-primary">نصب کانفیگ faketls</a>
 <a href="ss://chacha20-ietf-poly1305:usersecret@proxyproviderip:443?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dwww.google.com&udp-over-tcp=true#proxyproviderip" class="btn btn-success copylink">کپی لینک</a>
 <br />
         <br />
         
         
-<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"proxyproviderip","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-primary"> نصب کانفیگ 3</a>
+<a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"proxyproviderip","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-primary"> نصب کانفیگ vmess</a>
 <a href='vmess://{"add":"proxyproviderip","aid":"0","host":"cloudprovider","id":"f1f1b4c7-33e7-be38-4903-70d4bdf65539","net":"ws","path":"/usersecret/vmess/","port":"443","ps":"test","scy":"chacha20-poly1305","sni":"proxyproviderip","tls":"tls","type":"","v":"2"}' class="btn btn-success copylink">کپی لینک</a>
 
         
