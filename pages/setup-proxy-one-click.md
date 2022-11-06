@@ -120,7 +120,7 @@ Same as v2ray
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
 ```
-bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 0ba19c4c14b8699ff6070e75379cdcfd myservice.hiddify.com all myservice.hiddify.com
+bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 ```
             
 <!--
