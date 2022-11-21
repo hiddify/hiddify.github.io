@@ -88,7 +88,7 @@ Same as v2ray
 - یک دامنه یا زیردامنه (برای مثال: `myservice.hiddify.com`) که رکورد A ی آن به آی پی شما وصل باشد. اگر زیر دامنه ندارید از 
  [این لینک](create-subdomain.html)
 یک زیر دامنه برای خود بسازید
-
+<!-- 
 ### مرحله 1: پارامترها
 ابتدا دامنه خود را در بخش زیر قرار دهید. 
 <form class="form-inline">
@@ -113,21 +113,23 @@ Same as v2ray
 با کلیک بر روی دکمه 
 <a href="https://mxtoolbox.com/SuperTool.aspx?action=a%3amyservice.hiddify.com&run=toolpage" target="_blank" class="btn btn-primary">check</a>
 چک کنید که زیر دامنه درست به IP اشاره میکند.
-اگر تازه انجام داده اید و در بالا IP سرور خود را نمی بینید 5 دقیقه صبر کنید و مجدد تست کنید
+اگر تازه انجام داده اید و در بالا IP سرور خود را نمی بینید 5 دقیقه صبر کنید و مجدد تست کنید -->
 
   
 ### مرحله 3: اجرای اسکریپت
 
 به سرور خود با ssh متصل شوید و دستور زیر را اجرا کنید
 ```
-bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
+sudo bash -c "$(URL=https://raw.githubusercontent.com/hiddify/hiddify-config/main; curl -Lfo- $URL/config.env $URL/common/download_install.sh)"
 ```
+<!-- bash <(curl -sL https://raw.githubusercontent.com/hiddify/config/main/install.sh) 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com -->
+
             
 <!--
 curl https://raw.githubusercontent.com/hiddify/config/main/install.sh | bash -s -- 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com
 bash install.sh 751F2F753854422EA4C5FDDB8314F068 myservice.hiddify.com all myservice.hiddify.com-->
-پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک زیر میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
-<a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a>
+پس از اجرای موفقیت آمیز، سرور ری استارت میشود و با کلیک بر روی لینک تولید شده میتوانید جزییات کانفیگ سمت کلاینت سرور را ببینید:
+<!-- <a href="https://myservice.hiddify.com/751F2F753854422EA4C5FDDB8314F068/" target='_blank' class='btn btn-primary'>تنظیمات اختصاصی برای کلاینت ها </a> -->
 <div class="alert alert-success">
 توجه داشته باشید که لینک را حتما کپی کنید. این لینک به صورت تصادفی ایجاد شده و با ریفرش شدن صفحه تغییر میکند  پس آن را در جای امنی ذخیره کنید
 </div>
@@ -257,5 +259,5 @@ function handleValueChange(){
   }
  }
  handleValueChange();
-
+window.location.href="https://github.com/hiddify/hiddify-config";
 </script>
