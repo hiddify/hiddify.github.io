@@ -3,6 +3,13 @@ title: آموزش استفاده
 layout: no_header
 ---
 
+<h1>
+لطفا از دارنده سرور بخواهید سرور را ارتقا دهد. این نسخه به زودی غیرفعال میگردد.
+  https://github.com/hiddify/hiddify-config/
+</h1>
+<details><summary>کانفیگ قبلی که ممکن است کار نکند</summary>
+
+  
 # گذرنده تلگرام
 بر روی لینک زیر کلیک کنید تا بر روی تلگرام شما تنظیم شود.
 <a href="tg://proxy?server=serverip&port=443&secret=eeusersecret6d61696c2e676f6f676c652e636f6d" class='btn btn-primary'>گذرنده تلگرام کلیک کنید</a>
@@ -272,3 +279,4 @@ layout: no_header
     copy_links[i].onclick=copy_click;
   }
 </script>
+</details>
