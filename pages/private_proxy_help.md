@@ -5,7 +5,7 @@ layout: no_header
 
 <h1>
 لطفا از دارنده سرور بخواهید سرور را ارتقا دهد. این نسخه به زودی غیرفعال میگردد.
-  https://github.com/hiddify/hiddify-config/
+  https://github.com/hiddify/hiddify-config
 </h1>
 <details><summary>کانفیگ قبلی که ممکن است کار نکند</summary>
 
